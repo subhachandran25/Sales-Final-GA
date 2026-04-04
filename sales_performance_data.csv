@@ -1,0 +1,801 @@
+Date,Quarter,Region,AUH_Name,Senior_Manager_Name,Sales_Manager_Name,Sales_Rep_Name,Calls_Dialed,Call_Time_Mins,New_Leads,Disqualified,No_Answer,Qualified,Converted,Deals_Closed,Followup_Leads,Total_Revenue,Avg_Unit_Value
+30-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Barbara Jones,153,1593,166,35,124,37,33,12,78,106414,8867
+12-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Daniel Carter,921,809,68,49,295,20,15,10,67,132392,13239
+31-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Dorothy Garcia,284,1443,52,12,21,41,8,2,24,79970,39985
+01-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Dr. Charles Johnson,594,452,147,47,143,12,12,5,37,143254,28650
+13-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Mrs. Emily Carter,721,1642,97,16,30,71,67,17,35,126123,7419
+15-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Sarah Thompson,829,494,168,40,51,15,12,6,79,108471,18078
+13-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. James Gonzalez,342,234,104,31,92,70,70,47,13,127940,2722
+19-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Dorothy Garcia,272,369,135,50,168,17,14,10,72,109186,10918
+26-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,David Wright,720,170,233,42,154,68,68,58,43,107706,1857
+17-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Joshua Thomas,237,1539,202,22,218,144,23,19,64,107050,5634
+12-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Susan Baker,877,1773,162,36,203,91,5,3,46,100373,33457
+26-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Karen Carter,318,1699,69,57,277,15,9,1,45,127532,127532
+19-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Kevin Roberts,797,1717,51,25,99,7,6,3,49,110897,36965
+29-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Dorothy Brown,302,927,80,8,84,31,20,10,20,70029,7002
+06-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Dr. Dorothy King,748,1488,118,35,177,74,32,22,1,115048,5229
+28-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mrs. Charles Flores,932,393,200,13,227,59,8,1,9,82810,82810
+16-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Deborah Davis,562,1999,48,10,70,36,2,2,33,104880,52440
+26-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Dr. John Brown,138,1974,210,19,109,123,62,41,70,94665,2308
+19-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Kimberly Baker,641,1359,34,23,261,7,3,3,12,103280,34426
+21-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Carol Lewis,551,839,86,50,205,32,13,9,73,102309,11367
+07-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Karen Wright,542,1966,101,6,385,86,52,48,5,102334,2131
+13-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ashley White,841,1151,34,15,310,9,2,2,14,146680,73340
+07-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Mrs. Barbara Williams,706,547,149,38,334,73,12,5,32,91421,18284
+04-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mrs. Mark Nguyen,855,1844,136,22,169,109,49,16,77,115405,7212
+01-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Dr. Susan Wilson,577,1597,44,29,270,14,3,2,30,106379,53189
+30-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Kevin Scott,375,442,242,26,18,48,30,13,72,92720,7132
+15-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Dr. Sandra Torres,418,852,156,17,100,75,60,48,28,79148,1648
+23-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mrs. Mark Garcia,511,1557,59,56,176,7,6,4,52,108056,27014
+05-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Nancy Garcia,773,1173,177,36,126,130,4,1,61,85751,85751
+26-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. David Taylor,407,1658,83,10,112,28,7,6,5,118682,19780
+30-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Robert Green,438,108,196,19,107,78,19,8,47,113506,14188
+07-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Kevin Nguyen,933,1646,102,9,393,28,21,10,65,126705,12670
+18-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Dr. Amanda Hall,154,1534,47,33,55,12,5,4,47,92905,23226
+13-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Dr. James Brown,843,474,43,7,234,23,7,7,16,145348,20764
+04-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Timothy Brown,120,839,180,44,111,129,80,1,58,121400,121400
+15-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Christopher Thompson,778,1652,165,60,297,14,5,2,70,99939,49969
+30-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Anthony Carter,147,676,75,28,60,5,1,1,26,112193,112193
+12-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Carol Adams,156,1595,229,42,64,86,23,16,40,69624,4351
+13-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ashley Nelson,180,222,33,5,165,15,7,4,17,121595,30398
+11-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Joseph Roberts,799,1823,241,18,143,118,27,8,55,117018,14627
+14-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Sarah Carter,953,1615,239,5,138,10,8,1,17,115568,115568
+20-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Dr. James Lewis,421,689,47,25,157,7,6,6,4,138287,23047
+26-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Susan Scott,405,876,165,58,48,61,17,5,69,84813,16962
+25-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Paul Jones,521,618,32,7,45,9,6,4,22,125633,31408
+15-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mrs. Steven Gonzalez,559,902,138,7,158,19,5,3,58,131685,43895
+16-Mar-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Timothy Adams,242,1494,120,23,90,81,32,15,65,118736,7915
+28-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Kenneth Flores,879,1877,76,39,69,38,10,3,75,96063,32021
+09-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Karen Hall,180,1699,248,44,160,12,4,1,27,117674,117674
+14-Feb-2024,Q1 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Carol Nelson,896,968,226,58,102,6,5,5,29,94739,18947
+14-Jan-2024,Q1 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Donald Hall,464,264,224,47,375,27,15,9,7,120154,13350
+17-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Anthony Hill,202,1080,46,44,81,7,1,1,3,190821,190821
+18-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Michelle Brown,786,1730,102,58,271,31,3,2,50,74413,37206
+30-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Karen Nguyen,862,322,103,35,337,57,36,2,67,150037,75018
+26-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Steven Perez,420,1322,24,13,294,7,7,1,5,136363,136363
+03-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Patricia Smith,124,1769,169,56,84,12,8,3,70,109624,36541
+30-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,David Thompson,705,1224,142,30,323,86,25,8,67,110629,13828
+18-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Donald Nelson,371,400,188,31,322,143,43,9,56,164764,18307
+18-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Donald Nelson,679,638,70,30,86,37,22,8,38,148211,18526
+17-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Patricia Hernandez,774,136,177,12,76,82,79,49,64,144363,2946
+25-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. George Lewis,898,587,97,35,182,20,14,7,52,202672,28953
+15-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Dr. Michelle Anderson,794,1707,35,30,64,8,7,5,27,110443,22088
+19-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mrs. Andrew Ramirez,749,1670,68,7,249,28,13,13,59,132787,10214
+08-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Steven Harris,678,555,148,12,82,122,10,1,29,159091,159091
+07-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Paul Garcia,249,146,228,46,198,148,15,5,2,170398,34079
+29-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Donna Carter,347,1024,214,17,331,113,40,37,21,122200,3302
+31-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Andrew Davis,148,1148,191,58,88,85,6,2,36,101207,50603
+15-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Stephanie Robinson,480,1159,112,14,389,15,4,2,69,146521,73260
+07-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Dr. Melissa Miller,819,717,205,18,257,63,45,41,35,153422,3742
+13-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Stephanie Martinez,485,1691,69,42,268,8,3,2,60,132044,66022
+26-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Patricia Martinez,375,1671,208,46,249,61,22,21,30,110759,5274
+26-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Charles Martinez,738,625,164,60,342,104,30,11,14,146607,13327
+09-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Dr. Donald Carter,496,1972,30,11,121,20,1,1,9,134656,134656
+08-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Matthew Martin,595,245,54,6,169,46,13,4,42,130953,32738
+12-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Dorothy Martinez,458,467,179,27,163,108,68,47,79,112845,2400
+10-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Karen Sanchez,603,1449,181,13,327,90,2,2,56,150494,75247
+25-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Amanda Lopez,293,1217,143,21,256,124,74,23,30,100584,4373
+26-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Richard Walker,261,1372,222,45,45,124,39,29,41,139458,4808
+02-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mrs. Steven Moore,294,922,20,6,209,8,3,1,7,124770,124770
+05-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Donna Garcia,809,1302,124,46,190,72,47,3,56,131091,43697
+16-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Thomas Ramirez,727,1642,156,45,319,21,2,1,36,130964,130964
+07-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Susan Hill,554,401,50,47,231,5,2,2,41,90689,45344
+08-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Christopher Thomas,486,1512,119,11,198,70,68,45,2,141056,3134
+03-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Daniel Hernandez,690,116,229,54,18,39,8,2,15,141708,70854
+19-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Donald Hall,233,1916,121,19,132,37,11,7,28,141959,20279
+14-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Margaret Wright,380,957,200,6,115,146,26,22,59,127258,5784
+21-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Carol Taylor,230,441,174,23,224,124,64,17,28,180877,10639
+01-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Kimberly Hernandez,446,538,31,5,300,30,17,6,15,108934,18155
+09-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Anthony White,176,749,51,36,126,12,1,1,43,85082,85082
+14-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Karen Lee,194,1510,250,35,69,32,10,4,79,119425,29856
+05-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Thomas Rivera,295,792,147,42,228,53,46,40,64,103532,2588
+13-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Mrs. Michelle Brown,826,799,160,24,29,34,6,5,22,117125,23425
+19-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Dr. David Perez,489,1313,172,49,398,124,45,28,50,107871,3852
+12-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mrs. Patricia Mitchell,747,1427,124,33,129,54,3,1,37,131551,131551
+16-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Dr. Ashley Sanchez,189,1951,176,39,44,72,43,35,74,153575,4387
+16-May-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mrs. Ashley Torres,166,600,44,17,150,11,2,2,16,121728,60864
+27-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mrs. Betty Brown,290,222,39,31,177,12,4,2,18,138456,69228
+07-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Jessica Rivera,740,617,88,55,280,21,12,7,24,155807,22258
+07-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mrs. Charles Gonzalez,468,682,197,10,39,25,3,1,2,146818,146818
+22-Apr-2024,Q2 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mrs. Sarah Thomas,946,1816,134,46,143,9,5,2,26,114231,57115
+19-Jun-2024,Q2 2024,North,Amanda Smith,Juan Costa,Kevin May,John Thomas,997,1798,144,6,113,128,75,43,64,120584,2804
+09-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Michael Campbell,142,686,220,55,38,58,9,1,13,105734,105734
+24-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Betty White,624,526,107,15,292,47,27,23,19,159994,6956
+09-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Dr. William Baker,802,961,232,51,288,80,55,26,9,125044,4809
+22-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Donald Mitchell,232,849,219,54,119,119,63,7,6,179104,25586
+18-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Mrs. Joshua King,743,1206,236,37,237,74,43,32,34,108861,3401
+25-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Dr. Donna Sanchez,533,698,156,14,152,54,23,19,40,125343,6597
+19-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Daniel Lee,957,376,207,48,381,90,80,41,26,146981,3584
+06-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Mrs. Jessica Scott,473,825,249,9,44,57,26,13,8,107408,8262
+13-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Andrew Rivera,247,690,200,52,60,23,6,4,26,119360,29840
+03-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Amanda Mitchell,387,701,202,49,310,58,48,32,3,156318,4884
+14-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Jessica Johnson,331,1190,218,32,184,122,11,10,67,180900,18090
+20-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Linda Williams,339,1015,70,12,26,12,3,1,10,159412,159412
+07-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mrs. Kimberly Baker,565,528,138,7,23,65,20,8,29,153386,19173
+14-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. James Thompson,846,797,45,18,354,17,3,1,19,151688,151688
+25-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mrs. Karen Lewis,637,384,58,47,168,7,5,4,4,113116,28279
+25-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Dr. Lisa Flores,973,872,151,52,99,86,45,13,74,124429,9571
+26-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Dr. Deborah Carter,633,1063,119,50,366,70,29,4,79,161068,40267
+05-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Mark Miller,484,1922,38,33,395,9,5,2,26,139489,69744
+14-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Dorothy Lopez,287,1984,125,43,264,19,18,10,69,158113,15811
+16-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Joshua Brown,284,1824,51,8,129,39,29,13,9,163516,12578
+26-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Susan Jackson,312,1047,183,18,223,112,48,43,75,189248,4401
+10-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Charles Gonzalez,211,801,124,21,66,104,16,8,67,106413,13301
+12-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Dr. Donna White,421,280,118,38,34,24,18,17,61,108518,6383
+17-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Brian Hill,729,1051,127,24,257,65,30,3,74,190600,63533
+25-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Nancy Lopez,675,187,211,44,310,39,33,4,40,147766,36941
+20-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Robert Thompson,496,383,95,30,122,38,33,32,26,121087,3783
+12-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Michelle Lee,676,1576,249,28,371,113,24,22,20,60592,2754
+18-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Thomas Moore,705,1980,112,55,107,41,1,1,50,186415,186415
+07-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Margaret Clark,753,1255,226,31,306,27,13,6,47,180695,30115
+03-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Linda Moore,206,619,124,52,172,44,7,3,78,138241,46080
+10-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mrs. Richard Allen,308,879,233,23,160,92,55,16,46,161693,10105
+25-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Sandra Wright,762,926,109,33,223,67,19,2,35,178407,89203
+08-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Brian Gonzalez,207,1377,177,26,158,72,13,9,65,161108,17900
+11-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,David Williams,964,1313,226,17,105,144,45,45,80,119347,2652
+15-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Melissa Roberts,198,144,120,60,194,7,5,1,36,134545,134545
+10-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mrs. Paul Perez,416,1656,160,42,96,107,66,56,5,219334,3916
+16-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Dr. Robert King,529,1085,149,30,106,41,32,16,48,183772,11485
+09-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Lisa Allen,657,1622,140,26,339,14,11,7,58,135704,19386
+31-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Donald Perez,496,160,241,60,235,148,33,12,12,68222,5685
+09-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Deborah Baker,555,217,167,51,103,112,78,37,18,99555,2690
+15-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Michael Flores,175,1244,39,5,159,32,1,1,35,138305,138305
+22-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,George Thompson,817,757,157,47,99,51,33,19,45,181888,9573
+30-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Donna Torres,160,475,106,55,134,12,3,1,44,190720,190720
+06-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Emily Young,175,855,179,9,10,59,58,26,60,166503,6403
+26-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Mary Wright,257,696,116,53,116,46,12,7,58,126980,18140
+16-Aug-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Anthony Ramirez,437,1929,24,16,227,9,4,1,13,145407,145407
+09-Sep-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Anthony Perez,961,135,191,60,25,89,9,8,74,176011,22001
+21-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Emily Anderson,937,1401,104,39,186,57,54,41,24,105641,2576
+19-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. James Torres,296,1112,180,32,289,141,77,36,80,127702,3547
+30-Jul-2024,Q3 2024,North,Amanda Smith,Juan Costa,Kevin May,Mrs. Sandra White,553,1334,112,15,316,75,63,17,78,154254,9073
+15-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Joshua Gonzalez,958,1665,40,20,17,21,8,5,36,172211,34442
+14-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Kenneth Baker,881,1204,64,18,222,33,19,18,27,200875,11159
+10-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Barbara Jones,717,1765,164,21,200,133,11,2,71,217029,108514
+15-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Kevin Moore,491,492,118,36,235,73,59,3,29,225159,75053
+07-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Dr. Daniel Roberts,672,1651,166,13,80,18,14,12,57,173054,14421
+09-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mrs. Michael Anderson,927,417,75,6,395,46,5,2,32,203198,101599
+02-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mrs. Patricia Clark,864,1265,148,33,348,77,9,9,40,186396,20710
+22-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Mrs. Susan Campbell,878,457,38,36,296,6,5,5,9,153610,30722
+22-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Sandra Robinson,570,165,136,35,96,91,62,45,23,95778,2128
+01-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Andrew Harris,194,1552,50,6,107,35,32,3,26,108721,36240
+16-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Karen Campbell,324,1835,131,9,231,42,36,9,61,198149,22016
+23-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mrs. Brian Sanchez,682,1197,71,39,265,17,12,2,70,177088,88544
+09-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Robert King,635,378,226,57,44,134,73,36,4,76764,2132
+22-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Dr. Karen Torres,488,1876,155,11,288,146,29,4,12,161478,40369
+15-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Robert Nguyen,586,1011,221,9,137,104,67,25,52,208384,8335
+05-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Jennifer Miller,920,1257,155,50,189,65,4,4,64,124223,31055
+10-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Amanda Ramirez,617,353,93,8,327,53,17,12,32,179009,14917
+12-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Stephanie Hall,231,1588,161,30,66,109,76,41,69,153557,3745
+11-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Daniel Davis,790,764,222,17,97,149,24,23,60,133070,5785
+17-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Mrs. Carol Nguyen,408,1832,173,36,140,27,2,1,62,176588,176588
+15-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Barbara Thompson,584,1701,149,27,136,62,36,29,8,161592,5572
+19-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Dr. Ashley White,842,1632,115,24,242,38,1,1,52,129714,129714
+15-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Patricia Baker,323,1023,118,14,259,11,3,3,12,78120,26040
+15-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Anthony Torres,829,1592,30,24,78,7,1,1,10,169801,169801
+09-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. David Flores,561,1764,134,52,384,34,15,3,6,191131,63710
+11-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Mary Sanchez,770,1576,171,40,99,27,6,6,55,232567,38761
+08-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Dr. Anthony Wilson,101,682,202,33,38,133,54,31,38,150586,4857
+01-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Susan Nguyen,917,873,42,8,50,18,1,1,39,169270,169270
+28-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Mrs. Steven Gonzalez,956,181,85,46,93,36,16,9,44,194370,21596
+21-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Stephanie Lopez,561,748,20,5,352,20,2,1,4,189922,189922
+24-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Paul Gonzalez,849,1088,82,12,47,42,16,7,50,189938,27134
+12-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Emily Wilson,481,1403,28,14,226,13,12,10,14,219019,21901
+03-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Daniel Hernandez,461,428,159,19,341,129,4,3,31,136747,45582
+17-Oct-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,William Scott,227,1094,123,30,68,95,15,14,33,184150,13153
+20-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Thomas Martinez,826,627,88,15,89,66,39,21,53,157408,7495
+27-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Robert Young,371,144,62,30,360,5,5,3,0,124873,41624
+30-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Amanda Rivera,969,294,218,18,223,55,40,5,10,135842,27168
+17-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Carol Torres,756,1039,167,15,400,84,13,7,74,126052,18007
+10-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Ms. Linda Rivera,563,605,227,34,141,70,54,27,79,204362,7568
+05-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Ashley Rodriguez,250,280,69,56,18,11,9,2,52,145615,72807
+13-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. Jessica Moore,454,877,166,19,352,89,62,32,60,126795,3962
+08-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Dr. Mary Green,148,1822,77,54,56,23,7,4,8,181824,45456
+21-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Mr. Kimberly Baker,937,233,189,58,149,126,3,3,33,210047,70015
+29-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Mr. Joshua Hill,391,985,160,37,107,11,11,7,7,191637,27376
+27-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mr. Joseph Lee,524,139,106,34,296,14,6,5,59,196869,39373
+03-Nov-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Ms. Robert Young,280,1171,76,22,250,43,15,8,42,193883,24235
+24-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Barbara Clark,841,983,190,26,23,68,12,6,76,170660,28443
+10-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Patricia Hernandez,Mrs. Barbara Garcia,533,515,49,47,343,6,4,2,36,154391,77195
+20-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Dawn Lopez MD,Dr. David Jones,548,1445,157,57,33,48,26,5,60,198519,39703
+24-Dec-2024,Q4 2024,North,Amanda Smith,Juan Costa,Kevin May,Ms. James Rodriguez,917,242,183,10,283,99,75,55,46,208090,3783
+10-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Ms. Karen Hall,202,1469,247,14,15,21,4,3,4,33176,11058
+25-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Dr. Michelle Miller,335,1024,201,46,126,84,40,29,76,20986,723
+30-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Mark Wilson,112,1600,98,26,33,57,40,11,11,21992,1999
+11-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Deborah Davis,964,1865,190,22,138,126,6,5,48,26514,5302
+05-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Charles Hernandez,171,132,20,12,88,6,2,1,6,25688,25688
+09-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Steven Adams,504,161,177,23,212,48,43,22,60,46521,2114
+14-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,James Scott,928,245,172,27,391,31,28,8,35,41090,5136
+17-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Dr. Timothy Roberts,313,1263,210,60,79,14,8,6,48,37639,6273
+27-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Kenneth Rodriguez,689,156,230,55,61,119,20,15,35,50965,3397
+02-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Dr. Ashley Garcia,794,1621,50,30,229,23,22,7,15,41529,5932
+28-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Mrs. Susan Miller,766,659,78,10,238,18,8,6,24,28088,4681
+22-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Dr. Daniel Hall,193,159,164,21,137,47,44,25,65,43581,1743
+27-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Mrs. Kevin Ramirez,839,1285,149,42,272,83,52,49,62,36891,752
+28-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Steven Lee,928,1841,162,42,294,66,10,8,55,41535,5191
+28-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. David Thompson,122,540,55,16,85,14,9,4,36,31999,7999
+23-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Ms. Timothy Gonzalez,526,1005,116,41,64,28,9,3,16,32786,10928
+08-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Richard Martinez,229,1624,214,23,170,90,40,2,58,20290,10145
+14-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Mrs. Mark Roberts,945,1217,93,5,182,70,9,9,52,33648,3738
+23-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Mrs. Patricia Jackson,165,1558,165,28,116,30,22,1,42,18512,18512
+05-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Daniel Nelson,175,104,62,46,134,13,8,6,26,50226,8371
+18-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Richard Carter,273,753,193,36,100,87,79,13,29,31937,2456
+31-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Ms. Melissa Ramirez,972,555,59,24,45,9,7,6,3,30457,5076
+03-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Sarah Martinez,696,1577,105,11,110,59,44,36,53,45659,1268
+26-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Mrs. Donald Anderson,825,258,154,14,238,95,59,26,34,31635,1216
+11-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Emily Allen,497,789,130,5,128,123,16,14,28,49930,3566
+22-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Brian Hernandez,695,949,50,24,123,28,15,5,22,31204,6240
+19-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Dr. George Lopez,321,826,224,5,43,93,24,19,48,36068,1898
+17-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Ms. Robert Davis,318,802,189,28,132,55,10,2,27,49629,24814
+11-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Dr. Robert Martin,518,269,181,29,71,59,21,3,39,29852,9950
+12-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Deborah Adams,878,198,62,17,197,37,5,2,2,41543,20771
+06-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Sandra Rodriguez,324,924,47,18,29,21,6,5,12,31242,6248
+16-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Mrs. Jennifer Mitchell,499,1979,211,39,342,96,16,9,46,37332,4148
+27-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. John Hill,941,1515,143,25,360,50,49,34,53,28295,832
+23-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Karen Moore,934,1051,112,55,375,54,22,9,60,35208,3912
+23-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Steven Thomas,158,1186,102,47,28,54,40,28,69,39658,1416
+20-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Mrs. Patricia Thomas,227,227,55,8,47,44,32,29,15,42843,1477
+27-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Mr. Betty Taylor,715,751,118,38,183,41,37,20,15,38790,1939
+06-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Steven Wilson,369,1949,58,21,33,19,17,8,20,20086,2510
+09-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Mrs. Melissa Lee,558,505,199,51,112,44,8,1,21,49599,49599
+08-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Christopher White,475,823,92,14,168,25,4,3,57,27278,9092
+25-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Paul Jackson,626,1862,216,20,44,16,12,2,19,45317,22658
+25-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Paul Davis,454,898,141,53,87,31,21,8,34,56522,7065
+09-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Timothy Clark,100,1929,191,33,72,114,33,9,14,40592,4510
+11-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Brian Thomas,402,629,122,21,168,100,58,32,58,20437,638
+03-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Thomas King,428,1708,47,17,160,34,8,6,3,48031,8005
+26-Mar-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Anthony Allen,629,222,115,15,214,36,28,12,32,36769,3064
+29-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Emily Smith,504,570,104,46,96,46,41,12,57,50706,4225
+07-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Jennifer Smith,654,487,45,12,63,30,19,5,45,53110,10622
+30-Jan-2024,Q1 2024,South,Brian Carter,Linda Park,George Allen,Mr. Nancy Nguyen,699,1583,140,43,30,81,4,1,77,19724,19724
+07-Feb-2024,Q1 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Steven Adams,944,500,136,35,186,7,1,1,16,26812,26812
+02-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Mr. Anthony Lopez,752,1885,44,23,321,25,22,7,41,29199,4171
+04-Jun-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Charles Harris,443,279,161,33,136,108,70,29,80,33523,1155
+17-Jun-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Dr. Christopher Martinez,924,1299,89,21,400,62,43,8,20,39027,4878
+29-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Mr. Timothy Carter,270,1976,100,58,62,31,17,4,68,34767,8691
+14-May-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Daniel Jackson,940,1590,225,36,107,43,18,15,23,22535,1502
+26-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Mrs. Thomas Jackson,659,787,138,57,67,45,6,6,38,21816,3636
+15-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Mrs. Jennifer Torres,560,1349,60,18,393,37,5,2,7,46956,23478
+02-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Charles Rivera,353,541,107,8,57,70,65,2,44,28952,14476
+02-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Charles Garcia,760,1947,105,24,267,17,2,2,27,32994,16497
+16-Jun-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Dr. Emily Gonzalez,121,277,181,20,111,90,20,15,41,24239,1615
+28-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Melissa Clark,640,1933,96,48,97,21,11,11,33,40285,3662
+18-Jun-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Mary Lee,365,1306,78,53,101,9,7,4,56,30613,7653
+12-May-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Ms. William Carter,244,994,143,28,21,94,15,5,27,31101,6220
+21-May-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Kenneth Campbell,979,1857,105,12,111,73,70,21,4,40372,1922
+28-May-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Michael Walker,350,911,175,14,79,64,3,1,29,35098,35098
+07-Jun-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Linda Moore,723,573,149,6,55,121,54,47,1,28518,606
+02-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Stephanie Walker,642,1654,78,49,146,27,16,9,56,24279,2697
+02-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Timothy Thompson,531,555,38,13,189,16,6,2,25,38001,19000
+07-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Emily Gonzalez,750,419,211,51,136,129,72,43,20,36399,846
+15-May-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Carol Robinson,187,1987,110,40,106,59,1,1,47,36759,36759
+23-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Steven Lewis,438,1178,72,30,328,31,27,26,27,26346,1013
+28-Jun-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Mrs. William Adams,922,1446,229,55,362,95,79,50,75,32644,652
+08-Jun-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Dr. Sarah Miller,631,1839,70,34,160,14,4,1,41,37912,37912
+02-May-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Mrs. Lisa Johnson,358,1973,42,36,226,10,2,1,29,23883,23883
+08-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Mr. Melissa Williams,984,359,124,15,187,61,41,25,51,44947,1797
+19-Jun-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Mrs. Michelle White,608,398,222,5,289,22,12,4,43,11724,2931
+02-Jun-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Dr. Emily Torres,588,1730,57,43,159,15,15,7,43,27128,3875
+18-May-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Ms. Anthony Flores,124,1171,130,5,87,90,29,27,70,25175,932
+03-May-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Dr. Paul Harris,220,1608,112,48,120,36,7,2,9,45192,22596
+26-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Sarah Adams,243,613,61,36,84,30,16,6,13,17787,2964
+26-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Mr. George Perez,452,1699,160,30,275,53,36,21,32,42548,2026
+11-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Sarah Nguyen,549,1136,183,54,171,66,3,1,6,31905,31905
+08-May-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Susan Green,378,1663,230,23,89,122,15,4,12,35463,8865
+08-May-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Ms. William Garcia,130,637,169,50,12,70,13,13,70,37186,2860
+27-May-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Michael Rodriguez,896,591,244,25,360,81,23,8,15,35386,4423
+30-May-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. George Young,784,358,42,24,255,20,13,3,0,15115,5038
+13-May-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Mr. John Thomas,146,485,180,29,22,114,39,29,71,35131,1211
+04-May-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Richard Garcia,816,629,188,29,165,107,52,15,76,29987,1999
+23-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Michael Nguyen,557,1213,232,28,284,13,10,6,80,30648,5108
+10-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Ms. Melissa Baker,511,643,152,25,328,62,10,7,44,39960,5708
+12-Jun-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Dr. George Garcia,215,1749,125,36,48,31,8,4,80,23568,5892
+31-May-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Dr. Ashley Nelson,831,290,83,40,262,7,6,2,3,27649,13824
+21-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Mrs. Jessica Jones,136,844,102,17,48,24,24,19,69,41851,2202
+22-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Joseph Carter,257,1469,141,16,194,93,32,7,50,20814,2973
+23-Jun-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Ashley Mitchell,933,490,107,36,231,8,8,5,40,38576,7715
+24-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Mr. Emily White,533,1299,65,6,317,47,35,28,16,17037,608
+15-May-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Melissa Hernandez,821,1144,216,55,240,111,54,22,6,30668,1394
+24-Apr-2024,Q2 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Richard Rodriguez,953,1223,144,6,188,118,38,19,41,21789,1146
+05-May-2024,Q2 2024,South,Brian Carter,Linda Park,George Allen,Mrs. Dorothy White,170,1702,145,21,60,89,79,5,49,43111,8622
+02-May-2024,Q2 2024,South,Brian Carter,Linda Park,Hannah Scott,Mrs. Patricia Hall,323,1639,46,30,304,16,6,1,0,28230,28230
+19-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Mrs. Robert Lee,678,211,127,33,124,31,8,2,32,32561,16280
+28-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Donna Hernandez,395,1626,96,8,340,48,7,7,39,28728,4104
+07-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Richard King,732,562,199,34,176,33,10,1,4,27791,27791
+03-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Mr. Robert Gonzalez,286,1508,23,5,147,21,19,5,16,24047,4809
+15-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Stephanie Johnson,718,1828,184,12,135,79,36,32,68,23483,733
+22-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Joseph Rodriguez,246,508,56,52,124,9,8,6,13,15826,2637
+27-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Ms. David Hernandez,511,475,43,34,57,8,4,4,4,26859,6714
+30-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Kevin Campbell,332,1128,28,7,221,21,19,17,3,19909,1171
+21-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Mrs. Kevin Hill,535,1641,106,29,158,34,11,4,17,23124,5781
+06-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Ms. Andrew Taylor,630,977,38,26,57,11,8,4,5,21717,5429
+15-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Charles Martin,865,1102,212,55,255,42,24,11,22,27638,2512
+24-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Margaret Jones,509,885,66,28,178,33,30,11,24,22501,2045
+13-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Ms. Thomas Baker,324,838,55,43,175,14,7,6,31,23121,3853
+20-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Emily Nelson,455,310,236,50,128,84,45,22,54,23387,1063
+31-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Carol Thomas,226,163,76,31,66,48,35,21,16,39811,1895
+08-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Mr. Steven Allen,713,1349,90,39,203,21,20,3,24,16957,5652
+31-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Mrs. Jessica Smith,861,1377,88,51,89,6,4,2,33,20706,10353
+12-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Matthew Nelson,135,1885,128,44,63,62,28,20,24,25000,1250
+30-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Ms. Lisa Clark,910,1701,126,26,89,32,6,3,77,20780,6926
+13-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Dr. Melissa Garcia,555,944,186,49,98,67,32,2,44,45703,22851
+14-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. William Davis,511,213,72,46,74,13,4,1,57,17521,17521
+07-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Dr. Deborah Roberts,419,987,49,13,146,11,7,5,9,32622,6524
+17-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Dr. Lisa Adams,446,474,239,20,300,77,74,29,28,27079,933
+20-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Susan Martin,345,1600,86,51,74,32,31,13,42,31559,2427
+15-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Mr. Christopher Brown,448,893,143,56,41,27,3,1,57,30708,30708
+28-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Dorothy Hall,274,1499,62,10,204,51,34,25,31,33708,1348
+31-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Anthony Rivera,792,1814,81,23,286,39,9,9,54,24065,2673
+12-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Mark King,175,1859,64,46,152,10,6,4,41,33178,8294
+17-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Steven Thomas,103,460,91,33,79,42,31,2,4,33541,16770
+21-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Mrs. Kevin Jones,105,1423,44,33,96,7,5,1,6,17847,17847
+12-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Mr. Lisa Wilson,359,195,108,54,78,43,14,4,31,23587,5896
+28-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Barbara Martinez,148,201,170,24,143,71,55,4,60,15967,3991
+16-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Kevin Lewis,284,484,120,35,51,8,8,6,63,19121,3186
+21-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Jessica Robinson,888,1627,184,56,256,45,39,22,25,18252,829
+06-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Deborah Gonzalez,199,218,25,12,15,10,3,3,0,30582,10194
+11-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Michael Mitchell,510,1934,24,7,364,11,4,1,14,15884,15884
+16-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Lisa Young,247,1282,74,19,118,12,11,6,56,15134,2522
+07-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Karen Lee,779,1971,80,24,294,27,25,3,48,16913,5637
+29-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Mrs. Sarah Davis,614,563,126,52,360,60,23,19,70,17160,903
+31-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Dr. Emily Hill,373,1655,236,31,15,91,50,40,65,15223,380
+29-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Joseph Moore,904,552,189,59,226,58,48,24,19,18743,780
+16-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Robert Mitchell,858,705,58,8,231,16,9,2,43,12197,6098
+22-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Mr. David Adams,847,712,64,58,275,7,6,1,1,33638,33638
+16-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. David Nguyen,174,390,194,39,93,137,9,2,4,40412,20206
+21-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Betty Martin,770,802,125,47,14,8,8,4,1,16941,4235
+22-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Linda Johnson,279,183,48,47,224,5,2,2,1,29990,14995
+23-Aug-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Steven Moore,272,1772,89,11,251,62,62,34,75,34079,1002
+23-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,Ivan Turner,Richard Miller,156,1331,88,12,112,73,54,10,22,35936,3593
+13-Sep-2024,Q3 2024,South,Brian Carter,Linda Park,George Allen,Mr. George Moore,322,373,168,44,178,31,14,12,29,30237,2519
+09-Jul-2024,Q3 2024,South,Brian Carter,Linda Park,Hannah Scott,Mrs. Deborah Moore,402,402,25,13,69,16,10,1,19,27757,27757
+07-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Christopher Adams,338,1899,127,13,179,75,10,10,58,16232,1623
+07-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Richard Rivera,953,562,134,59,92,21,6,1,5,15539,15539
+21-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,George Roberts,987,1205,157,21,24,25,21,18,31,21703,1205
+28-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Carol Wright,128,1121,22,16,39,8,6,5,3,20712,4142
+01-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Mrs. Donna Lewis,289,1751,80,33,42,38,14,8,71,16956,2119
+21-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Andrew Robinson,709,401,156,35,371,100,26,15,56,13252,883
+02-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Mrs. Thomas Thompson,794,1130,95,50,233,21,10,7,39,30406,4343
+07-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. John Green,334,1889,242,25,206,102,40,27,65,5000,185
+21-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Steven Scott,113,1778,186,44,71,132,8,7,40,13259,1894
+08-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Mr. Dorothy Lopez,536,252,126,10,19,109,38,21,5,20275,965
+05-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Donna Nguyen,320,1587,83,40,157,10,2,1,72,15120,15120
+20-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Christopher King,701,1226,172,43,150,69,4,2,51,19636,9818
+15-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Mr. Andrew Nelson,272,466,194,54,253,32,24,8,38,10256,1282
+15-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Sandra Rivera,553,435,226,21,181,127,45,20,34,15266,763
+09-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Kevin Hall,648,1782,134,32,189,107,13,2,65,19437,9718
+26-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Mr. Timothy Adams,735,209,157,26,248,99,8,6,11,5000,833
+24-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Kimberly Mitchell,169,1751,149,28,53,92,6,3,32,13018,4339
+30-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Dr. Christopher Davis,675,905,81,50,201,28,13,13,12,19450,1496
+24-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Kimberly Allen,462,1794,164,47,267,118,12,8,76,7892,986
+04-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. David Martin,891,1342,218,41,319,77,25,14,43,22281,1591
+29-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Kimberly Hernandez,357,494,132,18,256,18,8,1,72,7557,7557
+18-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Ms. Karen Rodriguez,732,1610,35,7,271,6,6,4,20,14547,3636
+12-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Mrs. Michael Jones,817,985,47,8,114,37,8,2,1,20668,10334
+30-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,George Martinez,227,1925,58,16,203,36,1,1,32,22520,22520
+23-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Mr. Anthony Anderson,794,1229,243,10,363,122,18,2,64,22614,11307
+30-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Mrs. Jennifer Harris,224,165,187,17,198,97,80,27,48,22949,849
+11-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Mark Mitchell,859,357,242,52,109,22,5,1,46,17905,17905
+18-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Mrs. Donald Scott,179,718,208,53,156,128,58,36,48,9112,253
+25-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,John Miller,367,487,192,23,239,97,4,3,41,13480,4493
+08-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Michelle Hernandez,946,1544,126,47,339,57,55,26,44,9814,377
+21-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Mrs. Matthew Scott,931,397,23,7,354,6,3,3,0,9654,3218
+25-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Mrs. Paul Carter,602,1743,207,15,350,105,57,57,16,30077,527
+09-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Kenneth Garcia,343,575,158,55,260,54,4,1,55,18275,18275
+05-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Ms. Karen Robinson,209,1685,35,35,166,5,4,3,21,5000,1666
+14-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Dorothy Green,447,910,96,21,347,56,24,12,63,5000,416
+01-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Paul Perez,698,1920,103,32,103,67,52,19,37,18893,994
+21-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Dr. Karen Martinez,130,800,146,15,79,7,6,5,62,23277,4655
+15-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. David Anderson,776,1966,226,56,71,133,61,4,11,24758,6189
+13-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Mr. Charles Clark,547,1505,165,9,207,24,8,6,10,11693,1948
+07-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Mrs. Michelle Williams,303,1932,125,31,71,97,60,5,18,22517,4503
+24-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Richard Lopez,995,873,249,25,259,57,1,1,59,19951,19951
+11-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Ms. Susan Sanchez,123,1285,125,47,119,29,1,1,31,25458,25458
+19-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Mrs. Kimberly Miller,837,1681,46,39,360,9,1,1,6,25790,25790
+01-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Mr. Jessica Anderson,988,1486,143,56,103,22,17,9,9,5000,555
+16-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Dr. Deborah Miller,422,1136,244,36,144,118,17,6,35,19314,3219
+19-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Carol Adams,751,1976,198,52,362,34,17,14,78,14842,1060
+23-Nov-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Dr. Charles Allen,404,1035,100,10,340,74,17,17,3,17832,1048
+12-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,Ivan Turner,Mrs. Stephanie Williams,771,1431,74,48,333,16,6,2,43,21928,10964
+19-Dec-2024,Q4 2024,South,Brian Carter,Linda Park,George Allen,Mr. Melissa Scott,631,652,81,47,71,32,8,8,42,17205,2150
+08-Oct-2024,Q4 2024,South,Brian Carter,Linda Park,Hannah Scott,Ms. Kenneth Jones,598,151,64,58,197,8,2,2,22,21271,10635
+19-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,David Hall,229,342,119,6,225,115,44,20,2,55926,2796
+25-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Kevin Jackson,356,417,198,5,141,90,68,58,75,58843,1014
+11-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Margaret Nelson,619,1358,248,60,347,48,18,18,19,81604,4533
+14-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. Nancy Taylor,893,517,59,38,360,7,5,4,57,46948,11737
+20-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Nancy Flores,393,282,173,48,254,79,68,5,23,74315,14863
+01-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Kimberly Johnson,889,773,210,18,184,5,5,5,31,53978,10795
+13-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mrs. Donna King,494,1182,72,38,78,32,12,7,29,97108,13872
+17-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Stephanie Moore,934,1880,163,42,336,9,8,6,15,35082,5847
+06-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Linda Martinez,325,497,24,15,75,11,3,3,2,78407,26135
+17-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Betty Hill,597,288,116,15,234,86,55,44,54,41784,949
+09-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Michael Hall,618,739,198,59,381,83,22,19,28,60767,3198
+22-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Timothy Thomas,239,555,148,35,105,79,23,1,41,42665,42665
+22-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Paul Allen,126,1595,195,53,92,59,42,30,59,70022,2334
+06-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Kevin Harris,494,598,32,32,223,5,5,3,2,53303,17767
+27-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Ashley Wright,915,1834,204,21,248,71,57,21,69,47541,2263
+10-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Betty White,780,616,116,7,169,44,5,2,73,84414,42207
+22-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Ashley Scott,412,385,137,44,30,90,9,8,76,67687,8460
+24-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Mr. David Lewis,297,887,68,40,43,8,6,3,28,54820,18273
+01-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Emily Torres,174,853,217,44,68,41,27,26,63,87196,3353
+08-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Stephanie Wright,551,1905,126,37,214,14,9,7,11,58406,8343
+11-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Mr. James Mitchell,448,1900,131,33,197,81,73,25,33,52344,2093
+25-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. John Adams,285,1063,74,46,88,30,25,2,73,62400,31200
+24-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Charles Lopez,702,1604,33,21,226,10,8,7,19,42135,6019
+12-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Kevin Sanchez,124,1538,141,38,51,17,15,5,26,52510,10502
+01-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mrs. David Smith,165,567,36,18,132,17,8,2,24,61831,30915
+22-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Nancy Clark,998,1385,233,51,394,109,10,8,44,35773,4471
+01-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Margaret Roberts,637,738,146,29,329,104,31,25,51,55687,2227
+22-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. Steven Young,759,913,242,48,146,96,3,2,43,65327,32663
+03-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Donald Robinson,587,973,189,46,374,38,26,5,39,51884,10376
+16-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Michelle Brown,107,869,244,46,53,138,71,26,10,97660,3756
+01-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dorothy Lewis,897,957,58,55,71,7,1,1,8,29407,29407
+21-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Dr. Lisa Lopez,136,1833,174,10,76,78,65,7,48,26796,3828
+23-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Carol Smith,277,1405,159,48,70,60,35,13,67,56736,4364
+28-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Sandra Martin,800,1645,81,8,189,52,26,4,25,53830,13457
+09-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Margaret Lee,961,1446,169,33,388,40,11,3,70,24786,8262
+14-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Michael Lewis,446,1998,207,40,358,44,25,5,24,41460,8292
+04-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Melissa Miller,768,1425,110,15,108,88,4,4,59,35520,8880
+27-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Mrs. Deborah Williams,679,693,108,23,39,81,38,32,69,66431,2075
+18-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Timothy Moore,606,190,146,33,121,30,21,1,2,47469,47469
+02-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Jessica Allen,822,974,34,25,127,11,2,2,28,72635,36317
+19-Jan-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Christopher Lopez,150,925,167,9,129,90,43,3,39,61853,20617
+26-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Christopher Anderson,213,1194,174,5,207,28,22,10,32,52301,5230
+13-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Michael Roberts,112,1033,150,27,39,21,8,8,31,60914,7614
+07-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Timothy Young,954,1553,108,19,36,31,10,9,25,54031,6003
+07-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Andrew Sanchez,169,1905,187,52,83,116,71,46,75,41198,895
+13-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Sarah King,368,814,225,31,250,42,9,3,51,80620,26873
+25-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Anthony Young,311,559,126,19,270,98,34,26,79,58150,2236
+09-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Sarah Davis,769,1812,211,6,59,37,17,14,62,30538,2181
+03-Feb-2024,Q1 2024,East,Carol Lee,Michael Ray,Jackie Morris,Joshua Martinez,745,1266,168,29,121,43,8,3,41,71251,23750
+11-Mar-2024,Q1 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. David Jackson,481,1983,35,28,173,6,5,2,9,61202,30601
+01-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mrs. Brian Robinson,270,176,120,6,85,92,33,2,62,43968,21984
+03-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Linda Martinez,157,1470,175,18,40,135,47,5,48,62345,12469
+10-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Ms. James Clark,833,1456,159,8,399,69,69,30,20,66985,2232
+11-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. Joseph Allen,540,108,223,19,203,13,7,4,5,53397,13349
+21-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Ashley Brown,753,999,26,17,257,8,7,3,2,53517,17839
+17-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Jessica Garcia,298,171,48,31,210,18,17,1,22,76437,76437
+26-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mrs. Donald Lee,907,1894,187,52,179,17,14,11,23,54794,4981
+21-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Dorothy Adams,172,1770,114,45,65,27,17,15,59,79912,5327
+19-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Steven Miller,545,303,209,12,352,18,10,10,43,90807,9080
+07-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Charles Hall,521,569,244,18,294,102,1,1,34,45322,45322
+27-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Margaret Brown,889,1707,238,50,327,57,37,37,14,48544,1312
+05-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Joshua Gonzalez,646,1078,99,5,53,42,41,28,77,35801,1278
+15-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Christopher Martin,965,1129,239,10,324,57,6,3,46,52105,17368
+24-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. George Moore,784,989,158,46,396,55,18,6,9,68341,11390
+15-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Dr. Jennifer Flores,799,1135,194,14,114,47,5,3,47,39477,13159
+26-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mrs. Christopher White,542,767,94,38,186,45,8,8,12,69602,8700
+27-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Michelle Martinez,762,1013,244,51,370,146,37,16,9,59747,3734
+07-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Susan White,466,548,74,41,329,36,8,8,51,65935,8241
+17-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Mary Allen,710,1638,195,52,123,99,55,52,72,57742,1110
+29-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. David White,574,1843,125,26,28,92,78,38,15,42680,1123
+11-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Stephanie Miller,675,1511,57,23,222,20,17,11,14,67489,6135
+19-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mrs. Paul Ramirez,733,1282,210,26,310,48,37,29,47,72595,2503
+17-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Kevin Carter,430,339,235,8,30,124,20,11,25,73035,6639
+04-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Lisa Wilson,161,1284,230,44,100,85,59,45,33,46574,1034
+07-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Susan Baker,401,377,174,46,99,7,5,1,37,39503,39503
+16-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Dr. Sarah Anderson,417,815,86,42,181,40,24,19,39,45104,2373
+23-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Kevin Jones,878,187,245,38,97,75,49,34,61,77564,2281
+16-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. David Davis,510,1736,127,26,68,10,8,3,6,50369,16789
+21-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Jessica Clark,885,1723,105,20,148,21,10,1,76,74077,74077
+19-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Betty Davis,408,349,115,54,39,35,33,21,21,59363,2826
+10-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Susan Lewis,558,1363,63,46,110,21,17,6,4,66339,11056
+02-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Joseph Scott,359,760,132,16,71,118,69,15,77,88810,5920
+17-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Sarah Robinson,692,381,105,6,293,96,68,9,73,77386,8598
+20-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Carol Green,154,1774,138,36,31,71,35,10,78,48984,4898
+02-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Daniel Scott,936,675,85,14,380,59,19,9,3,57699,6411
+17-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Sandra Young,651,1042,230,48,222,56,10,1,79,60513,60513
+15-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. Donna Allen,206,1242,208,22,92,136,22,18,29,34231,1901
+02-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. John Thomas,324,1551,207,33,247,97,37,27,79,75113,2781
+16-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Donald Garcia,167,421,167,6,124,33,10,1,31,49827,49827
+04-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,James Clark,970,1259,169,43,104,10,3,1,15,50547,50547
+23-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Emily Rivera,987,1745,28,22,157,10,5,5,3,57538,11507
+28-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Dr. Barbara Torres,329,574,214,14,96,69,25,6,48,59273,9878
+06-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Margaret Campbell,557,197,250,20,54,33,6,2,11,82508,41254
+04-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Lisa Ramirez,551,1668,71,5,113,50,23,14,70,35075,2505
+29-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Robert Hill,472,1242,36,24,211,11,1,1,8,74914,74914
+09-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Donna Hill,776,1766,29,14,76,20,3,1,11,75604,75604
+15-May-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Dorothy Lopez,397,148,229,60,276,96,11,10,10,89958,8995
+15-Apr-2024,Q2 2024,East,Carol Lee,Michael Ray,Laura White,Mr. James Torres,557,1473,43,34,122,13,11,4,35,72075,18018
+02-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Mark Thomas,307,1463,124,21,233,67,56,38,55,90979,2394
+12-Jun-2024,Q2 2024,East,Carol Lee,Michael Ray,Karl Brown,Emily Green,672,116,143,21,375,112,2,2,56,76811,38405
+10-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Robert Rodriguez,623,946,83,18,133,52,11,4,36,56497,14124
+16-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Michael King,388,683,102,56,314,24,9,6,65,94878,15813
+27-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Stephanie Miller,114,1716,25,19,100,9,6,5,14,96066,19213
+11-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Kevin Jackson,811,1545,229,24,169,140,24,11,5,81474,7406
+30-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Amanda Martinez,218,793,186,29,34,18,12,3,72,65032,21677
+23-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Daniel Nguyen,520,1577,27,17,127,9,6,2,14,87995,43997
+23-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Nancy Jones,775,120,197,16,262,130,22,13,72,64956,4996
+31-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Dr. Deborah Jackson,210,534,247,7,77,22,15,14,43,52564,3754
+18-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Ashley Green,843,1706,112,7,333,19,7,4,67,53017,13254
+04-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Nancy Scott,151,950,196,33,19,63,60,8,70,52079,6509
+02-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Mrs. Karen Clark,370,1676,225,43,348,119,40,34,29,85916,2526
+26-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Karen Clark,556,1590,38,26,47,7,1,1,29,59453,59453
+05-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Michael Wright,463,1440,182,13,218,19,6,1,29,76728,76728
+18-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Melissa Sanchez,180,1182,32,26,35,9,4,1,7,62995,62995
+10-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Karen Campbell,772,681,90,17,61,60,60,36,51,70921,1970
+05-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. Kimberly Adams,407,1145,209,10,212,12,11,6,33,38926,6487
+30-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Mrs. Linda Roberts,175,1243,43,41,140,6,3,2,43,89933,44966
+21-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Dr. Jessica White,826,218,244,60,160,137,72,29,48,50241,1732
+10-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Ashley Allen,526,1576,130,36,284,74,38,22,59,58054,2638
+12-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Matthew Martin,293,972,150,35,115,120,54,1,13,75000,75000
+18-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Patricia Harris,152,1148,107,56,80,14,13,10,77,67000,6700
+18-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Brian Allen,159,1569,68,6,143,60,10,9,55,80767,8974
+15-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Mrs. Carol Jones,265,1322,227,48,173,79,1,1,42,98784,98784
+23-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Emily Campbell,663,1323,191,39,165,107,45,15,35,93856,6257
+05-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Nancy Carter,426,1527,159,48,371,85,75,42,77,84197,2004
+30-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Mrs. Matthew Baker,997,1210,244,34,21,135,18,6,73,85348,14224
+27-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Joshua Lopez,503,447,173,55,296,38,9,1,34,56137,56137
+27-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Daniel King,772,369,168,41,369,16,14,1,57,59351,59351
+02-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Margaret Lewis,412,798,36,22,116,13,12,7,30,69813,9973
+11-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,David Green,691,1889,161,48,165,10,5,2,19,80269,40134
+13-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Kenneth Mitchell,898,467,55,44,364,5,3,3,47,69370,23123
+04-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Kimberly Hall,308,741,63,6,54,14,1,1,22,68964,68964
+06-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Joseph Carter,325,758,184,13,104,64,40,2,34,58069,29034
+06-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Michelle Jones,687,417,49,26,348,21,5,4,6,72971,18242
+16-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Melissa Thompson,800,1097,44,16,88,19,12,3,31,59987,19995
+25-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Betty Harris,273,1877,89,5,259,81,70,52,51,87718,1686
+15-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. Mary Flores,653,682,46,41,294,7,6,6,37,84460,14076
+28-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Richard Brown,701,176,126,59,360,43,2,1,4,76083,76083
+05-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Jennifer Miller,962,1689,113,53,309,55,26,23,60,120754,5250
+24-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mrs. Sarah Robinson,327,834,106,8,299,36,9,4,66,77651,19412
+14-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Joshua Thompson,113,1797,190,16,67,101,58,32,42,48976,1530
+08-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Timothy White,893,692,165,8,397,89,15,2,38,85712,42856
+12-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. Karen Thomas,529,881,31,27,199,7,7,5,4,57029,11405
+09-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Betty Johnson,295,1286,211,33,265,74,9,6,45,85197,14199
+22-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Karen Hill,537,1872,185,29,81,71,5,4,68,56459,14114
+05-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Sarah Miller,512,1589,138,42,122,6,3,1,54,98435,98435
+21-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Dr. Brian Rivera,434,1549,147,40,140,30,24,21,16,55485,2642
+13-Aug-2024,Q3 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Donna Robinson,947,262,76,47,321,31,7,2,3,106769,53384
+06-Sep-2024,Q3 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. Joseph Martinez,424,1626,23,23,346,5,3,1,16,69018,69018
+30-Jul-2024,Q3 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Donna Nelson,215,550,230,8,141,150,38,31,21,77505,2500
+13-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. George Miller,874,794,89,29,301,34,21,19,27,82070,4319
+11-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Mark Martin,731,761,70,5,126,55,17,17,38,116131,6831
+05-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Carol Jones,934,1200,226,32,122,5,3,3,17,75747,25249
+28-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. David Nguyen,422,834,190,57,48,106,11,2,11,69276,34638
+07-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Brian Baker,795,405,181,54,116,53,31,24,28,79682,3320
+12-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Sandra Young,224,1795,213,10,119,15,13,8,38,67165,8395
+14-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Joseph Harris,932,1339,171,51,214,97,10,10,30,94776,9477
+17-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Mrs. Carol Anderson,480,106,37,31,159,11,6,2,23,66521,33260
+19-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Jennifer Martin,253,854,249,38,96,79,70,9,80,87926,9769
+16-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mark Carter,919,1355,243,27,49,126,62,52,47,35005,673
+01-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Joseph Williams,818,547,72,21,202,12,1,1,22,69044,69044
+17-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Jennifer Hall,670,441,74,58,289,6,5,1,19,63701,63701
+30-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Anthony Martin,892,458,66,34,12,24,12,6,7,93651,15608
+04-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Christopher Nguyen,330,1262,37,32,175,9,3,2,8,78990,39495
+20-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Karen Jones,717,1678,120,51,47,61,33,16,0,72187,4511
+31-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Kimberly Hill,343,1387,223,32,153,105,70,11,59,69292,6299
+05-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,James Brown,693,1194,108,7,49,47,6,3,13,87730,29243
+15-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Barbara Hill,973,1382,84,9,127,27,26,7,62,105373,15053
+31-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mrs. Linda Young,921,638,189,15,99,34,25,21,47,64934,3092
+19-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Karen Anderson,278,1799,228,41,214,5,4,4,7,80490,20122
+12-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Kevin Lopez,121,1020,118,30,21,11,10,1,38,82586,82586
+09-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Jessica Baker,873,731,144,25,203,56,5,1,52,62101,62101
+29-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,William Carter,966,1748,66,60,28,9,8,1,16,31177,31177
+17-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. John Green,683,1379,189,24,55,36,27,19,5,38243,2012
+09-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Steven Young,223,1462,231,43,109,146,7,3,66,74837,24945
+18-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Joseph Young,440,557,102,43,264,24,17,16,41,62115,3882
+17-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Sandra Davis,296,1145,212,18,119,98,7,5,2,65708,13141
+02-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. Timothy Davis,539,1764,56,29,259,28,24,17,22,91847,5402
+02-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Daniel Hall,182,531,96,60,80,40,5,2,42,105204,52602
+11-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Robert Allen,259,972,100,37,126,35,17,7,36,71339,10191
+14-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Carol Green,668,479,245,17,145,68,37,16,59,70860,4428
+04-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Mrs. Mark Nelson,181,1955,160,53,160,89,71,49,22,80609,1645
+18-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Mrs. Mark Hernandez,869,687,135,27,186,89,38,11,15,44639,4058
+11-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mrs. Joseph Allen,722,362,129,26,221,67,13,4,22,53678,13419
+19-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Mr. Timothy Green,946,663,128,6,122,96,65,18,68,122616,6812
+05-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Ms. Michelle Taylor,877,521,239,28,387,84,67,45,35,95329,2118
+27-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Dr. Paul King,738,158,163,56,108,106,9,7,51,119859,17122
+25-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Dorothy Brown,742,1585,40,25,248,12,5,5,6,83591,16718
+15-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Robert Jackson,574,598,247,54,155,118,33,30,27,65057,2168
+02-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. Mary Ramirez,191,1228,123,44,83,71,55,36,36,89979,2499
+01-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Susan King,814,1534,86,51,49,18,2,1,27,98303,98303
+28-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Lisa Walker,881,1714,39,6,133,26,4,4,34,70406,17601
+26-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Donna Adams,126,1284,78,14,112,44,10,10,23,66475,6647
+08-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,James Rivera,604,1210,192,51,393,88,4,4,57,97208,24302
+02-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Deborah Walker,605,1409,142,21,266,79,17,1,2,68903,68903
+02-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Mr. Brian Williams,830,853,208,6,248,21,17,17,40,47508,2794
+24-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Carol Davis,656,458,87,24,229,47,18,18,4,115535,6418
+25-Oct-2024,Q4 2024,East,Carol Lee,Michael Ray,Laura White,Mr. Donald King,689,1534,140,60,51,35,8,6,47,81510,13585
+11-Dec-2024,Q4 2024,East,Carol Lee,Michael Ray,Jackie Morris,Ms. Anthony Brown,566,202,228,60,76,81,56,41,69,83694,2041
+13-Nov-2024,Q4 2024,East,Carol Lee,Michael Ray,Karl Brown,Ms. Linda Ramirez,535,240,223,42,22,45,40,29,66,46049,1587
+09-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Michael King,648,817,20,15,337,8,7,2,8,85842,42921
+30-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Dr. Paul Johnson,801,780,151,35,133,76,7,6,59,106513,17752
+09-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Dr. Lisa Davis,555,1773,118,58,111,30,24,3,66,116623,38874
+04-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. David White,737,1237,97,5,354,22,19,6,9,130797,21799
+12-Feb-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. Donna Miller,359,686,206,8,128,81,31,23,18,90610,3939
+15-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. William Mitchell,298,739,124,6,67,27,25,13,14,115225,8863
+21-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Ms. Kevin Wright,391,331,62,11,106,25,22,21,51,98298,4680
+27-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Michelle King,356,1832,78,28,60,36,9,3,47,59178,19726
+17-Feb-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Michelle Jackson,606,259,241,25,235,135,19,6,62,89824,14970
+14-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. Christopher Green,895,159,84,45,105,15,5,2,50,120404,60202
+14-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Michelle Hall,233,1042,237,26,133,63,57,19,49,72973,3840
+03-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Betty Adams,416,752,200,45,248,61,4,2,48,99974,49987
+24-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Linda Adams,289,1181,147,53,86,10,3,3,16,70493,23497
+20-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Steven Sanchez,889,416,86,12,158,33,23,8,6,62407,7800
+13-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Dr. Thomas Baker,881,800,250,47,73,75,20,3,67,57929,19309
+27-Feb-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. William Green,175,406,94,7,108,82,19,7,32,129881,18554
+10-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Thomas Scott,363,907,206,49,124,24,13,2,60,94586,47293
+15-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Kenneth Hernandez,535,1773,166,14,17,112,51,49,18,77962,1591
+10-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. Daniel Brown,956,1375,223,35,239,85,30,1,66,80155,80155
+15-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Dorothy Taylor,757,1013,169,8,176,99,50,7,25,68922,9846
+04-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Matthew Hernandez,196,949,90,54,96,38,12,4,11,38451,9612
+10-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Daniel Clark,509,851,180,22,107,12,9,3,75,83852,27950
+31-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Carol Sanchez,763,427,250,55,55,129,67,15,77,91585,6105
+08-Feb-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mrs. Richard Wilson,678,983,111,52,270,30,21,19,65,109645,5770
+10-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Dr. Timothy Green,831,232,123,45,359,32,4,4,55,54927,13731
+17-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. Charles Gonzalez,578,1487,36,12,339,29,20,6,19,61341,10223
+13-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Melissa White,668,1047,78,56,20,24,21,13,76,54537,4195
+12-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Richard Rivera,605,1930,110,12,92,100,48,22,15,139333,6333
+05-Feb-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. Lisa Davis,283,1959,80,33,236,10,6,1,65,66297,66297
+06-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mrs. Michelle Hill,860,1524,175,25,352,58,25,10,38,68736,6873
+08-Feb-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Betty Allen,370,1234,243,52,191,63,3,2,11,116415,58207
+21-Feb-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. Ashley Thompson,682,328,124,24,258,31,20,15,14,95288,6352
+07-Feb-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Dr. Richard Scott,795,1651,58,37,230,10,5,3,41,64441,21480
+06-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Timothy Moore,781,409,176,7,398,99,70,34,54,77836,2289
+15-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Steven Rivera,463,804,86,6,357,65,9,7,77,54415,7773
+14-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Betty Hall,761,666,24,9,214,13,10,6,3,119297,19882
+17-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Ms. Steven Ramirez,467,1804,47,17,194,27,8,2,24,32508,16254
+13-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Patricia Anderson,488,1807,23,21,395,5,1,1,4,93502,93502
+13-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Emily Sanchez,514,553,167,16,313,51,45,24,69,81610,3400
+30-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Ms. Melissa Torres,206,1105,221,36,13,146,52,20,46,51286,2564
+14-Feb-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. Anthony Lopez,924,1461,53,8,165,40,39,23,48,98397,4278
+11-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Jessica Allen,156,1478,58,55,152,8,6,3,46,82945,27648
+24-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. Steven Martinez,312,1256,164,59,10,104,69,1,20,86924,86924
+07-Feb-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Carol Williams,885,1071,84,23,144,41,10,3,31,60292,20097
+29-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Robert Wilson,653,1317,246,35,183,41,40,1,25,61552,61552
+23-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. James Anderson,203,1041,57,51,105,9,1,1,25,57283,57283
+10-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Sarah Brown,766,1056,115,18,177,12,12,7,2,81125,11589
+22-Feb-2024,Q1 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Jennifer Brown,548,260,62,44,208,10,9,8,25,94294,11786
+11-Jan-2024,Q1 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Richard Baker,535,884,47,37,265,10,5,1,39,133554,133554
+26-Mar-2024,Q1 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. Andrew Perez,435,1453,28,22,280,10,4,4,28,62576,15644
+16-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Emily Mitchell,268,1520,118,30,143,38,24,4,70,99324,24831
+03-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Susan Torres,768,167,83,24,226,30,16,9,32,92647,10294
+06-Apr-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Anthony Roberts,230,1682,202,40,169,135,74,57,7,58354,1023
+10-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Timothy Perez,410,1210,223,39,105,55,39,8,8,76890,9611
+27-Apr-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Dr. Sarah Mitchell,949,1794,100,46,131,53,26,11,54,106567,9687
+17-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Dorothy Wright,957,831,207,17,384,74,5,5,63,162766,32553
+19-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. Ashley Thomas,326,1348,244,58,303,28,5,5,61,105318,21063
+19-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. John Gonzalez,618,996,161,29,398,68,22,10,30,93418,9341
+05-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Andrew Adams,539,879,178,57,351,110,61,46,38,111054,2414
+08-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Patricia Roberts,206,1238,185,24,10,54,31,31,16,87221,2813
+02-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Dr. George Ramirez,101,592,184,45,83,29,6,5,80,104196,20839
+21-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Timothy Lee,395,408,180,27,335,131,15,7,79,60427,8632
+15-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Charles Clark,335,184,80,34,200,22,11,4,3,68285,17071
+06-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Lisa Lee,147,199,228,57,145,44,2,2,8,105984,52992
+04-Apr-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Emily Baker,199,678,50,49,21,5,4,3,42,70522,23507
+10-Apr-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Ms. James Gonzalez,456,740,90,16,112,48,16,3,54,62663,20887
+16-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Andrew Lewis,333,137,170,17,95,43,35,22,15,120883,5494
+21-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Michelle Hall,212,331,148,12,186,101,17,8,31,49336,6167
+20-Apr-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. James White,257,1242,245,8,104,75,2,2,76,122265,61132
+25-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Timothy Mitchell,385,509,86,35,337,8,8,1,31,77477,77477
+19-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mrs. Steven Harris,218,262,167,30,15,76,57,49,9,85540,1745
+15-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Dr. Margaret Wilson,127,1953,65,47,27,9,9,7,22,122584,17512
+01-Apr-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Dr. Joseph Gonzalez,421,561,230,25,204,147,78,28,28,36259,1294
+01-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mrs. Linda Rivera,812,1100,67,48,306,19,17,11,44,99794,9072
+17-Apr-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Dr. Emily Gonzalez,592,967,91,20,87,23,23,18,31,95609,5311
+29-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Dorothy Miller,514,398,239,36,308,91,47,33,28,123921,3755
+13-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mrs. Patricia Jackson,996,1755,129,8,366,16,9,6,38,80611,13435
+01-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Dr. Melissa Nguyen,184,1427,113,30,172,44,37,3,67,105645,35215
+15-Apr-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. Mary Lee,803,1122,203,48,147,150,17,17,80,78480,4616
+10-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Dr. Andrew King,606,931,109,30,247,37,19,2,58,95006,47503
+15-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Anthony Allen,454,1575,122,24,339,43,22,8,23,121171,15146
+17-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Donna Martinez,407,1105,100,35,174,61,20,8,49,136539,17067
+06-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Paul Nguyen,327,1872,42,15,83,15,5,1,7,47533,47533
+01-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Dr. Carol Jones,639,934,153,17,273,65,44,28,9,66540,2376
+29-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Thomas Ramirez,788,1815,113,33,356,84,9,1,19,90988,90988
+25-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Dr. Deborah Moore,165,1054,81,59,127,19,1,1,2,80336,80336
+14-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,George Williams,662,680,209,30,34,59,28,2,42,104116,52058
+02-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Jessica Davis,394,1726,199,35,30,99,17,9,38,105938,11770
+28-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Dr. Richard Walker,141,1248,96,9,12,88,48,16,3,42870,2679
+29-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Barbara Scott,574,1378,170,30,14,101,31,1,19,35483,35483
+04-Apr-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Brian Wilson,499,383,218,33,166,124,50,49,13,93194,1901
+13-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Donald Martin,875,1339,214,35,261,60,39,3,36,90334,30111
+10-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Linda Martin,875,1115,188,25,50,16,12,3,33,105821,35273
+17-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ashley Nelson,642,1592,94,18,291,80,39,26,33,79426,3054
+02-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Mary Jones,390,272,127,22,371,92,23,9,47,103179,11464
+07-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Carol Gonzalez,611,652,166,9,299,91,11,2,38,86362,43181
+06-Apr-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Matthew Nguyen,467,1985,128,41,228,63,35,35,79,114043,3258
+02-Apr-2024,Q2 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Daniel Anderson,977,1679,89,33,292,58,35,7,8,65782,9397
+02-May-2024,Q2 2024,West,David Kim,Sarah Nguyen,Mark Davis,Ms. Joshua Sanchez,893,1313,115,36,131,24,18,3,32,98824,32941
+30-Jun-2024,Q2 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Ashley Green,938,1718,121,5,143,40,28,1,68,114907,114907
+08-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Ms. Jessica Clark,109,450,119,49,62,30,21,8,43,82311,10288
+27-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Thomas Hall,909,1696,222,19,182,43,11,3,71,81400,27133
+12-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mrs. Brian Nelson,557,1407,245,15,121,135,15,9,50,114838,12759
+26-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Ms. John Hill,830,1782,140,56,122,53,23,15,17,108081,7205
+03-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Paul Hernandez,181,949,127,35,129,46,32,12,54,75604,6300
+06-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Deborah Wilson,360,1593,30,16,243,16,4,3,28,80291,26763
+04-Sep-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. William Wright,197,1922,133,22,134,104,42,24,68,137701,5737
+10-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Michelle Campbell,196,1105,104,27,44,30,15,8,18,102339,12792
+24-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Margaret Moore,587,1591,140,58,19,6,3,2,6,100257,50128
+14-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Ms. Michael Brown,228,1977,54,40,38,11,1,1,40,132124,132124
+03-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Michael White,513,1121,201,30,130,66,51,4,5,93326,23331
+07-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Jennifer Miller,633,1584,90,32,393,46,43,17,56,165539,9737
+14-Sep-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. Emily Miller,608,248,84,31,183,20,5,1,68,69567,69567
+30-Sep-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Deborah Ramirez,785,1328,52,12,156,33,18,15,20,67891,4526
+01-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Dr. Susan Hernandez,910,1536,44,16,135,24,6,3,41,105030,35010
+20-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Emily Adams,695,487,52,22,75,22,4,1,30,73715,73715
+22-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. James Jackson,540,1512,100,45,138,20,13,8,52,119966,14995
+16-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Jessica Martin,389,1229,124,15,217,41,22,8,4,115256,14407
+15-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Dr. Robert Mitchell,543,1457,184,35,271,56,48,21,52,93014,4429
+25-Sep-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Dr. Donna Thomas,911,365,77,18,138,56,49,43,9,122012,2837
+23-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Brian Baker,511,1238,177,22,85,150,29,11,6,142934,12994
+08-Sep-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Joseph Miller,919,338,206,53,255,102,32,8,36,70848,8856
+03-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Jennifer Carter,753,867,90,29,287,55,13,7,22,146818,20974
+06-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Brian Roberts,451,1382,171,56,181,38,12,11,76,69788,6344
+16-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. Melissa Rivera,837,644,171,43,205,45,11,5,17,106548,21309
+01-Sep-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. Sarah Roberts,186,1806,173,36,88,74,10,10,49,107198,10719
+29-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Karen Moore,677,1313,214,41,141,145,39,26,73,87381,3360
+01-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Dr. Stephanie Torres,821,1814,116,10,188,27,1,1,0,141728,141728
+19-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Brian Brown,559,1391,42,16,70,8,8,7,11,162459,23208
+22-Sep-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Paul Rodriguez,538,1491,226,58,127,103,26,2,4,102498,51249
+04-Sep-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Sandra Martinez,789,496,96,56,225,26,11,1,79,80104,80104
+22-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Deborah Brown,956,1107,165,36,275,35,28,5,64,93621,18724
+03-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Dr. Kevin Harris,792,747,177,20,390,113,54,31,17,91508,2951
+29-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Stephanie Moore,351,125,33,10,70,18,4,1,12,102784,102784
+22-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Charles Hernandez,874,1449,144,44,121,39,31,10,65,114681,11468
+31-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Nancy Miller,245,1398,91,57,103,23,13,4,6,136282,34070
+23-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Kevin Baker,537,874,79,34,255,45,44,32,1,96765,3023
+20-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. John Campbell,729,1338,147,8,18,90,32,1,28,104237,104237
+20-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Sarah Rivera,745,880,31,30,178,6,2,1,21,157335,157335
+13-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Anthony Gonzalez,478,1907,68,59,78,6,4,3,2,98230,32743
+25-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Jessica Nelson,805,1756,155,58,270,32,11,9,31,67711,7523
+28-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,George Jones,843,1587,234,21,361,65,30,22,21,85359,3879
+13-Sep-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Thomas Baker,367,1541,175,44,15,24,23,23,65,84262,3663
+26-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Thomas Flores,213,1974,239,7,13,55,7,1,42,149013,149013
+14-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Dorothy Gonzalez,229,1166,239,57,88,124,32,25,2,100986,4039
+02-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Jessica Thompson,201,1597,246,48,157,131,61,43,61,63085,1467
+30-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,John Thomas,209,288,152,53,186,42,16,14,41,102250,7303
+18-Jul-2024,Q3 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Nancy Jackson,725,752,237,8,112,121,79,5,75,98186,19637
+22-Sep-2024,Q3 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Lisa Jackson,884,1627,112,17,106,72,55,32,63,101615,3175
+15-Aug-2024,Q3 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Joseph Miller,350,243,171,35,17,101,27,24,13,111632,4651
+16-Nov-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. Kenneth Robinson,138,496,237,34,83,36,34,34,79,113041,3324
+20-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Kimberly Brown,641,368,202,46,138,20,1,1,9,86687,86687
+17-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mrs. Ashley White,574,1302,81,33,126,29,7,1,21,107027,107027
+14-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. Carol Martin,353,1352,237,38,28,120,40,15,19,148542,9902
+23-Nov-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. Sandra Thomas,553,393,31,8,313,17,17,2,13,133051,66525
+17-Nov-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Dorothy Young,204,1781,134,32,183,50,28,20,21,145903,7295
+28-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Dr. Kimberly Lopez,868,1142,203,46,100,136,29,29,77,150682,5195
+23-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Anthony Smith,323,1875,45,20,68,11,4,3,14,82231,27410
+22-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Jessica Smith,147,1726,92,24,147,64,13,9,57,78438,8715
+17-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Paul Adams,842,1992,78,10,154,6,2,2,44,104872,52436
+28-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Stephanie Harris,984,309,155,20,86,38,16,3,51,98050,32683
+28-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Joseph Campbell,315,1049,132,10,74,98,37,22,26,90661,4120
+21-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Dr. David Jones,122,804,36,7,92,19,15,5,12,135997,27199
+15-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. Patricia Miller,894,160,73,48,325,9,3,2,24,103106,51553
+11-Nov-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Carol Brown,258,1010,142,38,28,37,6,6,30,82011,13668
+01-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Jennifer Lewis,955,1675,231,23,320,131,71,26,54,160594,6176
+27-Nov-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Sarah Garcia,424,1660,78,49,97,21,6,4,1,98520,24630
+22-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Dr. Kimberly Anderson,223,580,237,30,187,24,9,2,0,76296,38148
+25-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Dorothy Thompson,945,1006,52,40,259,12,2,2,24,110109,55054
+15-Nov-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Sandra Nguyen,251,102,231,60,72,150,77,13,22,115174,8859
+26-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ashley Hill,553,1403,164,12,360,66,60,54,70,103204,1911
+19-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. Patricia Brown,743,1101,117,37,143,11,7,7,3,95786,13683
+25-Nov-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Ashley Moore,468,744,245,24,185,13,12,8,35,104842,13105
+08-Nov-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Carol Martinez,287,1281,70,49,121,6,1,1,33,150275,150275
+26-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Ms. Charles Baker,511,317,34,18,309,8,3,2,26,152395,76197
+23-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Donna Rivera,208,1363,212,24,134,45,3,1,53,94768,94768
+22-Nov-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Christopher Lopez,812,358,173,50,178,126,72,33,14,63387,1920
+23-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Margaret Anderson,440,1108,190,6,374,95,49,28,48,114663,4095
+04-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Amanda Perez,208,1223,96,15,86,5,1,1,43,87286,87286
+14-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Donna Jones,374,1844,34,29,165,8,6,5,29,136843,27368
+17-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mr. Thomas Adams,174,795,124,10,127,38,6,4,61,111900,27975
+15-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Margaret Taylor,212,823,226,24,71,112,40,12,9,74173,6181
+17-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Charles Green,975,367,140,51,380,82,41,33,12,164002,4969
+09-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Dr. Jennifer Jackson,356,445,85,34,33,39,36,16,76,122011,7625
+26-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Dorothy King,567,903,231,19,268,74,40,18,27,101782,5654
+31-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Charles Lee,905,1897,97,30,13,45,42,35,25,168549,4815
+22-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Kimberly Gonzalez,694,534,32,16,255,21,1,1,11,108254,108254
+09-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Jennifer Nguyen,982,1122,57,5,52,16,8,2,24,84129,42064
+28-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Ms. Brian Martinez,924,1945,242,50,176,6,6,3,40,94394,31464
+26-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. Matthew Garcia,984,231,37,31,241,11,11,3,15,113304,37768
+19-Nov-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mr. Anthony King,186,1191,53,34,49,13,7,5,14,130047,26009
+10-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mr. Brian Nguyen,795,157,78,47,323,28,5,2,0,109542,54771
+31-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Ms. Charles Clark,730,1500,147,45,209,53,15,9,61,129014,14334
+18-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Kenneth Rivera,174,1493,28,6,159,27,8,7,2,94971,13567
+19-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Mrs. Daniel Carter,328,746,43,11,161,26,19,15,23,92648,6176
+26-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Mrs. Dorothy Davis,698,1817,166,33,139,97,63,3,6,79417,26472
+27-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Mrs. Jessica Wilson,711,1051,147,5,257,20,4,4,27,113582,28395
+24-Dec-2024,Q4 2024,West,David Kim,Sarah Nguyen,Oscar Hall,Anthony Young,902,1449,214,41,323,119,10,1,70,126198,126198
+26-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Mark Davis,Ms. Donna Ramirez,661,474,188,20,171,60,42,18,67,82904,4605
+15-Oct-2024,Q4 2024,West,David Kim,Sarah Nguyen,Nancy Green,Ms. Deborah Garcia,411,1869,112,35,335,78,47,46,80,102049,2218
