@@ -144,15 +144,6 @@ with st.sidebar:
     sel_quarters = st.multiselect("Quarters", all_quarters, default=all_quarters)
 
     st.markdown("---")
-    st.markdown("### 📊 Analysis Layers")
-    st.markdown(
-        '<span class="metric-pill">Descriptive</span>'
-        '<span class="metric-pill">Diagnostic</span>'
-        '<span class="metric-pill">Prescriptive</span>'
-        '<span class="metric-pill">Predictive</span>',
-        unsafe_allow_html=True,
-    )
-    st.markdown("---")
     st.markdown("### 🤖 Predictive Model")
     model_choice = st.selectbox("Algorithm", ["Random Forest", "Gradient Boosting", "Linear Regression"])
     st.markdown("---")
@@ -309,44 +300,83 @@ with tab2:
 
     col1, col2 = st.columns(2)
 
+    # ── CHART 1: Avg Calls Dialed (bar) + Connected Calls (dotted line) ──────
     with col1:
-        fig = px.scatter(
-            fdf, x="Calls_Dialed", y="Total_Revenue", color="Region",
-            size="Deals_Closed", title="Calls Dialed vs Revenue (size = Deals Closed)",
-            color_discrete_map=COLORS, opacity=0.7,
-            labels={"Calls_Dialed": "Calls Dialed", "Total_Revenue": "Revenue ($)"},
-        )
-        fig.update_layout(**PLOTLY_LAYOUT)
-        st.plotly_chart(fig, use_container_width=True)
+        call_data = fdf.groupby(["Quarter", "Region"]).agg(
+            Avg_Calls_Dialed =("Calls_Dialed", "mean"),
+            Avg_Connected    =("No_Answer",    lambda x: (fdf.loc[x.index, "Calls_Dialed"] - x).mean()),
+        ).reset_index().sort_values("Quarter")
 
+        fig_calls = go.Figure()
+        for region in fdf["Region"].unique():
+            rd = call_data[call_data["Region"] == region]
+            # Bar: avg calls dialed
+            fig_calls.add_trace(go.Bar(
+                x=rd["Quarter"], y=rd["Avg_Calls_Dialed"],
+                name=f"{region} — Dialed",
+                marker_color=COLORS.get(region, "#888"),
+                opacity=0.75,
+                legendgroup=region,
+            ))
+            # Dotted line: avg connected calls
+            fig_calls.add_trace(go.Scatter(
+                x=rd["Quarter"], y=rd["Avg_Connected"],
+                name=f"{region} — Connected",
+                mode="lines+markers",
+                line=dict(color=COLORS.get(region, "#888"), dash="dot", width=2),
+                marker=dict(size=7, symbol="circle-open"),
+                legendgroup=region,
+            ))
+        fig_calls.update_layout(
+            **PLOTLY_LAYOUT,
+            title="Avg Calls Dialed (Bar) vs Connected Calls (Dotted) by Region",
+            barmode="group",
+            xaxis_title="Quarter",
+            yaxis_title="Avg Calls",
+        )
+        st.plotly_chart(fig_calls, use_container_width=True)
+
+    # ── CHART 2: Lead Funnel — conversion across regions ─────────────────────
     with col2:
         funnel_data = fdf.groupby("Region").agg(
-            Calls    =("Calls_Dialed", "sum"),
-            Leads    =("New_Leads",    "sum"),
-            Qualified=("Qualified",    "sum"),
-            Converted=("Converted",   "sum"),
-            Closed   =("Deals_Closed", "sum"),
+            New_Leads =("New_Leads",    "sum"),
+            Qualified =("Qualified",    "sum"),
+            Converted =("Converted",    "sum"),
+            Closed    =("Deals_Closed", "sum"),
         ).reset_index()
-        stages = ["Calls", "Leads", "Qualified", "Converted", "Closed"]
-        fig2 = go.Figure()
+
+        fig_funnel = go.Figure()
+        stages_funnel = ["New_Leads", "Qualified", "Converted", "Closed"]
+        stage_labels  = ["New Leads", "Qualified", "Converted", "Deals Closed"]
+        x_pos = list(range(len(stages_funnel)))
+
         for _, row in funnel_data.iterrows():
-            fig2.add_trace(go.Scatterpolar(
-                r=[row[s] / max(row["Calls"], 1) * 100 for s in stages],
-                theta=stages, fill="toself", name=row["Region"],
-                line_color=COLORS.get(row["Region"], "#888"), opacity=0.7,
+            region = row["Region"]
+            vals   = [row[s] for s in stages_funnel]
+            conv_rates = [
+                f"{vals[i]/vals[0]*100:.1f}%" if vals[0] > 0 else "0%"
+                for i in range(len(vals))
+            ]
+            fig_funnel.add_trace(go.Scatter(
+                x=stage_labels, y=vals,
+                name=region, mode="lines+markers+text",
+                line=dict(color=COLORS.get(region, "#888"), width=2.5),
+                marker=dict(size=10),
+                text=conv_rates, textposition="top center",
+                textfont=dict(size=9),
             ))
-        fig2.update_layout(
+
+        fig_funnel.update_layout(
             **PLOTLY_LAYOUT,
-            title="Sales Funnel Efficiency (% of Calls)",
-            polar=dict(
-                radialaxis=dict(visible=True, gridcolor="rgba(99,102,241,0.2)"),
-                bgcolor="rgba(12,18,37,0.8)",
-            ),
+            title="Lead Funnel — Conversion Across Regions",
+            xaxis_title="Funnel Stage",
+            yaxis_title="Count",
         )
-        st.plotly_chart(fig2, use_container_width=True)
+        st.plotly_chart(fig_funnel, use_container_width=True)
 
     col3, col4 = st.columns(2)
 
+    # ── CHART 3: Revenue per Call (retained) ──────────────────────────────────
     with col3:
         rpc = (fdf.groupby(["Quarter", "Region"])["Revenue_Per_Call"]
                .mean().reset_index().sort_values("Quarter"))
@@ -360,18 +390,39 @@ with tab2:
         fig3.update_layout(**PLOTLY_LAYOUT)
         st.plotly_chart(fig3, use_container_width=True)
 
+    # ── CHART 4: Connected vs Converted — trend analysis across regions ───────
     with col4:
-        fig4 = px.scatter(
-            fdf, x="Lead_Quality", y="Conversion_Rate",
-            color="Region", size="Total_Revenue",
-            title="Lead Quality vs Conversion Rate",
-            color_discrete_map=COLORS, opacity=0.7,
-            labels={
-                "Lead_Quality":    "Lead Quality (Qualified / Leads)",
-                "Conversion_Rate": "Conversion Rate",
-            },
+        trend_data = fdf.groupby(["Quarter", "Region"]).agg(
+            Avg_Connected =("No_Answer", lambda x: (fdf.loc[x.index, "Calls_Dialed"] - x).mean()),
+            Avg_Converted =("Converted", "mean"),
+        ).reset_index().sort_values("Quarter")
+
+        fig4 = go.Figure()
+        for region in fdf["Region"].unique():
+            rd = trend_data[trend_data["Region"] == region]
+            fig4.add_trace(go.Scatter(
+                x=rd["Quarter"], y=rd["Avg_Connected"],
+                name=f"{region} — Connected",
+                mode="lines+markers",
+                line=dict(color=COLORS.get(region, "#888"), width=2.5, dash="solid"),
+                marker=dict(size=8),
+                legendgroup=region,
+            ))
+            fig4.add_trace(go.Scatter(
+                x=rd["Quarter"], y=rd["Avg_Converted"],
+                name=f"{region} — Converted",
+                mode="lines+markers",
+                line=dict(color=COLORS.get(region, "#888"), width=2, dash="dot"),
+                marker=dict(size=7, symbol="diamond"),
+                legendgroup=region,
+            ))
+
+        fig4.update_layout(
+            **PLOTLY_LAYOUT,
+            title="Connected vs Converted Calls — Trend Analysis by Region",
+            xaxis_title="Quarter",
+            yaxis_title="Avg Count",
         )
-        fig4.update_layout(**PLOTLY_LAYOUT)
         st.plotly_chart(fig4, use_container_width=True)
 
     auv = (fdf.groupby(["Quarter", "Region"])["Avg_Unit_Value"]
