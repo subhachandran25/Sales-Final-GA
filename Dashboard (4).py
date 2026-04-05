@@ -745,16 +745,19 @@ with tab4:
             font=dict(color="#a5b4fc", size=11),
             xanchor="center",
         )
-        fig3.update_layout(
-            **PLOTLY_LAYOUT,
-            title="Revenue Forecast Q1–Q2 2025 (with ±18% confidence band)",
-            height=420, showlegend=True,
-            xaxis=dict(
-                categoryorder="array",
-                categoryarray=all_quarters_plot,
+        # Build layout without duplicate xaxis key
+        _forecast_layout = {k: v for k, v in PLOTLY_LAYOUT.items() if k != "xaxis"}
+        _forecast_layout.update({
+            "title": "Revenue Forecast Q1–Q2 2025 (with ±18% confidence band)",
+            "height": 420,
+            "showlegend": True,
+            "xaxis": {
                 **PLOTLY_LAYOUT["xaxis"],
-            ),
-        )
+                "categoryorder": "array",
+                "categoryarray": all_quarters_plot,
+            },
+        })
+        fig3.update_layout(**_forecast_layout)
         st.plotly_chart(fig3, use_container_width=True)
 
     with col2:
