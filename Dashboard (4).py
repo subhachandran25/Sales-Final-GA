@@ -731,13 +731,19 @@ with tab4:
                 showlegend=False, hoverinfo="skip",
             ))
         # dashed divider between history and forecast
-        fig3.add_vrect(
-            x0="Q4 2024", x1="Q1 2025",
-            fillcolor="rgba(165,180,252,0.05)",
-            layer="below", line_width=0,
-            annotation_text="← History | Forecast →",
-            annotation_position="top",
-            annotation_font_color="#a5b4fc",
+        # add_vrect doesn't support string category axes in Plotly 6 — use shapes instead
+        fig3.add_shape(
+            type="line",
+            x0="Q4 2024", x1="Q4 2024", y0=0, y1=1,
+            xref="x", yref="paper",
+            line=dict(color="rgba(165,180,252,0.4)", width=1, dash="dot"),
+        )
+        fig3.add_annotation(
+            x="Q4 2024", y=1.05, xref="x", yref="paper",
+            text="← History | Forecast →",
+            showarrow=False,
+            font=dict(color="#a5b4fc", size=11),
+            xanchor="center",
         )
         fig3.update_layout(
             **PLOTLY_LAYOUT,
