@@ -300,77 +300,71 @@ with tab2:
 
     col1, col2 = st.columns(2)
 
-    # ── CHART 1: Avg Calls Dialed (bar) + Connected Calls (dotted line) ──────
+    # ── CHART 1: Avg Calls Dialed (bar) + Connected Calls (dotted line) — by Region only
     with col1:
-        call_data = fdf.groupby(["Quarter", "Region"]).agg(
-            Avg_Calls_Dialed =("Calls_Dialed", "mean"),
-            Avg_Connected    =("No_Answer",    lambda x: (fdf.loc[x.index, "Calls_Dialed"] - x).mean()),
-        ).reset_index().sort_values("Quarter")
+        call_data = fdf.groupby("Region").agg(
+            Avg_Calls_Dialed=("Calls_Dialed", "mean"),
+            Avg_No_Answer   =("No_Answer",    "mean"),
+        ).reset_index()
+        call_data["Avg_Connected"] = call_data["Avg_Calls_Dialed"] - call_data["Avg_No_Answer"]
 
         fig_calls = go.Figure()
-        for region in fdf["Region"].unique():
-            rd = call_data[call_data["Region"] == region]
-            # Bar: avg calls dialed
-            fig_calls.add_trace(go.Bar(
-                x=rd["Quarter"], y=rd["Avg_Calls_Dialed"],
-                name=f"{region} — Dialed",
-                marker_color=COLORS.get(region, "#888"),
-                opacity=0.75,
-                legendgroup=region,
-            ))
-            # Dotted line: avg connected calls
-            fig_calls.add_trace(go.Scatter(
-                x=rd["Quarter"], y=rd["Avg_Connected"],
-                name=f"{region} — Connected",
-                mode="lines+markers",
-                line=dict(color=COLORS.get(region, "#888"), dash="dot", width=2),
-                marker=dict(size=7, symbol="circle-open"),
-                legendgroup=region,
-            ))
+        fig_calls.add_trace(go.Bar(
+            x=call_data["Region"],
+            y=call_data["Avg_Calls_Dialed"],
+            name="Avg Calls Dialed",
+            marker_color=[COLORS.get(r, "#888") for r in call_data["Region"]],
+            opacity=0.8,
+            text=call_data["Avg_Calls_Dialed"].round(0),
+            textposition="outside",
+        ))
+        fig_calls.add_trace(go.Scatter(
+            x=call_data["Region"],
+            y=call_data["Avg_Connected"],
+            name="Avg Connected Calls",
+            mode="lines+markers",
+            line=dict(color="#a5b4fc", dash="dot", width=2.5),
+            marker=dict(size=9, symbol="circle", color="#a5b4fc"),
+        ))
         fig_calls.update_layout(
             **PLOTLY_LAYOUT,
-            title="Avg Calls Dialed (Bar) vs Connected Calls (Dotted) by Region",
-            barmode="group",
-            xaxis_title="Quarter",
+            title="Avg Calls Dialed vs Connected Calls by Region",
+            xaxis_title="Region",
             yaxis_title="Avg Calls",
         )
         st.plotly_chart(fig_calls, use_container_width=True)
 
-    # ── CHART 2: Lead Funnel — conversion across regions ─────────────────────
+    # ── CHART 2: Lead Funnel — proper Funnel chart per region ───────────────
     with col2:
-        funnel_data = fdf.groupby("Region").agg(
+        funnel_agg = fdf.groupby("Region").agg(
             New_Leads =("New_Leads",    "sum"),
             Qualified =("Qualified",    "sum"),
             Converted =("Converted",    "sum"),
             Closed    =("Deals_Closed", "sum"),
         ).reset_index()
 
-        fig_funnel = go.Figure()
-        stages_funnel = ["New_Leads", "Qualified", "Converted", "Closed"]
-        stage_labels  = ["New Leads", "Qualified", "Converted", "Deals Closed"]
-        x_pos = list(range(len(stages_funnel)))
+        stage_cols   = ["New_Leads", "Qualified", "Converted", "Closed"]
+        stage_labels = ["New Leads", "Qualified", "Converted", "Deals Closed"]
 
-        for _, row in funnel_data.iterrows():
+        fig_funnel = go.Figure()
+        for _, row in funnel_agg.iterrows():
             region = row["Region"]
-            vals   = [row[s] for s in stages_funnel]
-            conv_rates = [
-                f"{vals[i]/vals[0]*100:.1f}%" if vals[0] > 0 else "0%"
-                for i in range(len(vals))
-            ]
-            fig_funnel.add_trace(go.Scatter(
-                x=stage_labels, y=vals,
-                name=region, mode="lines+markers+text",
-                line=dict(color=COLORS.get(region, "#888"), width=2.5),
-                marker=dict(size=10),
-                text=conv_rates, textposition="top center",
-                textfont=dict(size=9),
+            vals   = [row[s] for s in stage_cols]
+            pcts   = [f"{v/vals[0]*100:.1f}%" if vals[0] > 0 else "0%" for v in vals]
+            fig_funnel.add_trace(go.Funnel(
+                name=region,
+                y=stage_labels,
+                x=vals,
+                textinfo="value+percent initial",
+                marker=dict(color=COLORS.get(region, "#888")),
+                connector=dict(line=dict(color="rgba(255,255,255,0.1)", width=1)),
+                opacity=0.85,
             ))
 
         fig_funnel.update_layout(
             **PLOTLY_LAYOUT,
-            title="Lead Funnel — Conversion Across Regions",
-            xaxis_title="Funnel Stage",
-            yaxis_title="Count",
+            title="Lead Conversion Funnel — Across Regions",
+            funnelmode="overlay",
         )
         st.plotly_chart(fig_funnel, use_container_width=True)
 
@@ -390,7 +384,7 @@ with tab2:
         fig3.update_layout(**PLOTLY_LAYOUT)
         st.plotly_chart(fig3, use_container_width=True)
 
-    # ── CHART 4: Connected vs Converted — trend analysis across regions ───────
+    # ── CHART 4: Connected vs Converted — trend analysis across regions (solid lines) ──
     with col4:
         trend_data = fdf.groupby(["Quarter", "Region"]).agg(
             Avg_Connected =("No_Answer", lambda x: (fdf.loc[x.index, "Calls_Dialed"] - x).mean()),
@@ -398,21 +392,22 @@ with tab2:
         ).reset_index().sort_values("Quarter")
 
         fig4 = go.Figure()
-        for region in fdf["Region"].unique():
+        for region in sorted(fdf["Region"].unique()):
             rd = trend_data[trend_data["Region"] == region]
+            clr = COLORS.get(region, "#888")
             fig4.add_trace(go.Scatter(
                 x=rd["Quarter"], y=rd["Avg_Connected"],
                 name=f"{region} — Connected",
                 mode="lines+markers",
-                line=dict(color=COLORS.get(region, "#888"), width=2.5, dash="solid"),
-                marker=dict(size=8),
+                line=dict(color=clr, width=2.5),
+                marker=dict(size=8, symbol="circle"),
                 legendgroup=region,
             ))
             fig4.add_trace(go.Scatter(
                 x=rd["Quarter"], y=rd["Avg_Converted"],
                 name=f"{region} — Converted",
                 mode="lines+markers",
-                line=dict(color=COLORS.get(region, "#888"), width=2, dash="dot"),
+                line=dict(color=clr, width=2),
                 marker=dict(size=7, symbol="diamond"),
                 legendgroup=region,
             ))
@@ -474,44 +469,44 @@ with tab3:
 
     col1, col2 = st.columns(2)
 
+    # ── Qualified Leads bar by Region ─────────────────────────────────────────
     with col1:
-        if "Sales_Rep_Name" in fdf.columns:
-            rep_perf = fdf.groupby("Sales_Rep_Name").agg(
-                Avg_Revenue=("Total_Revenue", "mean"),
-                Avg_Calls  =("Calls_Dialed",  "mean"),
-                Region     =("Region",         "first"),
-            ).reset_index()
-            med_rev   = rep_perf["Avg_Revenue"].median()
-            med_calls = rep_perf["Avg_Calls"].median()
-            fig = px.scatter(
-                rep_perf, x="Avg_Calls", y="Avg_Revenue", color="Region",
-                hover_name="Sales_Rep_Name",
-                title="Rep Performance Quadrant (Calls vs Revenue)",
-                color_discrete_map=COLORS,
-                labels={"Avg_Calls": "Avg Calls Dialed", "Avg_Revenue": "Avg Revenue ($)"},
-            )
-            fig.add_hline(y=med_rev,   line_dash="dash", line_color="rgba(165,180,252,0.4)", annotation_text="Median Revenue")
-            fig.add_vline(x=med_calls, line_dash="dash", line_color="rgba(165,180,252,0.4)", annotation_text="Median Calls")
-            fig.update_layout(**PLOTLY_LAYOUT)
-            st.plotly_chart(fig, use_container_width=True)
+        qual_data = fdf.groupby("Region").agg(
+            Avg_Qualified=("Qualified", "mean"),
+        ).reset_index()
+        fig_qual = go.Figure()
+        fig_qual.add_trace(go.Bar(
+            x=qual_data["Region"],
+            y=qual_data["Avg_Qualified"],
+            marker_color=[COLORS.get(r, "#888") for r in qual_data["Region"]],
+            text=qual_data["Avg_Qualified"].round(1),
+            textposition="outside",
+            name="Avg Qualified Leads",
+        ))
+        fig_qual.update_layout(
+            **PLOTLY_LAYOUT,
+            title="Avg Qualified Leads by Region",
+            xaxis_title="Region",
+            yaxis_title="Avg Qualified Leads",
+            showlegend=False,
+        )
+        st.plotly_chart(fig_qual, use_container_width=True)
 
+    # ── Converted Leads trend across Regions ──────────────────────────────────
     with col2:
-        bins = pd.cut(
-            fdf["Calls_Dialed"], bins=5,
-            labels=["100–280", "280–460", "460–640", "640–820", "820–1000"],
+        conv_trend = fdf.groupby(["Quarter", "Region"]).agg(
+            Avg_Converted=("Converted", "mean"),
+        ).reset_index().sort_values("Quarter")
+        fig_conv = px.line(
+            conv_trend, x="Quarter", y="Avg_Converted", color="Region",
+            markers=True,
+            title="Converted Leads Trend Across Regions",
+            color_discrete_map=COLORS,
+            labels={"Avg_Converted": "Avg Converted Leads", "Quarter": ""},
         )
-        call_rev = (fdf.groupby(bins, observed=True)["Total_Revenue"]
-                    .mean().reset_index())
-        call_rev.columns = ["Call_Range", "Avg_Revenue"]
-        fig2 = px.bar(
-            call_rev, x="Call_Range", y="Avg_Revenue",
-            title="Revenue Yield by Call Volume Band",
-            labels={"Avg_Revenue": "Avg Revenue ($)", "Call_Range": "Calls Dialed Range"},
-            color="Avg_Revenue",
-            color_continuous_scale=["#312e81", "#6366f1", "#a5b4fc"],
-        )
-        fig2.update_layout(**PLOTLY_LAYOUT)
-        st.plotly_chart(fig2, use_container_width=True)
+        fig_conv.update_traces(line_width=2.5, marker_size=8)
+        fig_conv.update_layout(**PLOTLY_LAYOUT)
+        st.plotly_chart(fig_conv, use_container_width=True)
 
     col3, col4 = st.columns(2)
 
@@ -613,6 +608,28 @@ with tab4:
         <p style="color:#c7d2fe;line-height:1.8">
         Q5/Q6 (2025) are predicted by extending the time variable with each region's historical averages.
         The ±18% confidence band reflects model uncertainty.
+        </p>
+        <h4 style="color:#818cf8;font-family:Syne">Why Random Forest for Regression? 🎯</h4>
+        <p style="color:#c7d2fe;line-height:1.8">
+        Our data has <strong>multiple interacting factors</strong> — calls, lead quality, region, deal value — and
+        the relationship between them and revenue is <em>non-linear</em>. For example, 800 calls in North
+        generates 5× more revenue than 800 calls in South. Linear Regression assumes a straight-line relationship
+        and completely misses this.<br><br>
+        <strong>Why not just Linear Regression?</strong> When we tested it, R² dropped to ~0.60 because it cannot
+        model the regional multiplier effect. Random Forest captures it naturally by building region-specific
+        branches in each tree.<br><br>
+        <strong>Random Forest as a Regression Model:</strong><br>
+        • Each tree learns: "If Region=North AND Deals_Closed &gt; 30 AND Avg_Unit_Value &gt; 3000 → Revenue ≈ $160K"<br>
+        • 150 trees each see different random subsets of rows and features<br>
+        • Final prediction = average of all 150 tree predictions (reduces variance)<br>
+        • Feature Importance shows <em>which factors explain the most variance in revenue</em><br><br>
+        <strong>Relationship with Revenue — All Factors:</strong><br>
+        • <strong>Avg_Unit_Value × Deals_Closed</strong> = direct revenue drivers (highest importance)<br>
+        • <strong>Region</strong> = captures territory-specific market conditions (2nd highest)<br>
+        • <strong>Converted</strong> = pipeline closing efficiency<br>
+        • <strong>Qualified</strong> = upstream lead quality signal<br>
+        • <strong>Quarter (time)</strong> = captures seasonal growth trends<br>
+        • <strong>Calls_Dialed</strong> = volume input — necessary but not sufficient alone
         </p>
         </div>
         """, unsafe_allow_html=True)
@@ -830,6 +847,172 @@ with tab4:
             gap reaches <strong>{gap:.0f}×</strong> by mid-2025.
         </div>
         """, unsafe_allow_html=True)
+
+    # ── TOP 5 PREDICTED REPS ──────────────────────────────────────────────────
+    st.markdown('<div class="section-title">🏆 Top 5 Predicted Sales Reps <span class="section-badge">ML Ranking</span></div>', unsafe_allow_html=True)
+    st.markdown("""<div class="insight-box">The model predicts each rep's Q1 2025 revenue using their historical activity profile as input features - surfacing who is set to lead.</div>""", unsafe_allow_html=True)
+
+    if "Sales_Rep_Name" in df.columns:
+        rep_profiles = df.groupby(["Sales_Rep_Name", "Region"]).agg(
+            Calls_Dialed   =("Calls_Dialed",   "mean"),
+            Call_Time_Mins =("Call_Time_Mins",  "mean"),
+            New_Leads      =("New_Leads",       "mean"),
+            Disqualified   =("Disqualified",    "mean"),
+            No_Answer      =("No_Answer",       "mean"),
+            Qualified      =("Qualified",       "mean"),
+            Converted      =("Converted",       "mean"),
+            Deals_Closed   =("Deals_Closed",    "mean"),
+            Followup_Leads =("Followup_Leads",  "mean"),
+            Avg_Unit_Value =("Avg_Unit_Value",  "mean"),
+            Actual_Avg_Rev =("Total_Revenue",   "mean"),
+        ).reset_index()
+
+        rep_profiles["Region_Enc"] = le.transform(rep_profiles["Region"])
+        rep_profiles["Q_Num"]      = 5  # Q1 2025
+        X_reps = rep_profiles[FEATURES].fillna(0)
+        rep_profiles["Predicted_Q1_2025"] = model.predict(X_reps)
+
+        top5 = rep_profiles.nlargest(5, "Predicted_Q1_2025")[
+            ["Sales_Rep_Name", "Region", "Actual_Avg_Rev", "Predicted_Q1_2025"]
+        ].reset_index(drop=True)
+        top5.index = top5.index + 1  # rank from 1
+
+        r5c1, r5c2 = st.columns(2)
+        with r5c1:
+            fig_top5 = go.Figure()
+            fig_top5.add_trace(go.Bar(
+                y=top5["Sales_Rep_Name"],
+                x=top5["Actual_Avg_Rev"],
+                name="Actual Avg Revenue",
+                orientation="h",
+                marker_color="#6366f1", opacity=0.7,
+                text=top5["Actual_Avg_Rev"].map("${:,.0f}".format),
+                textposition="inside",
+            ))
+            fig_top5.add_trace(go.Bar(
+                y=top5["Sales_Rep_Name"],
+                x=top5["Predicted_Q1_2025"],
+                name="Predicted Q1 2025",
+                orientation="h",
+                marker_color="#34d399", opacity=0.85,
+                text=top5["Predicted_Q1_2025"].map("${:,.0f}".format),
+                textposition="inside",
+            ))
+            fig_top5.update_layout(
+                **PLOTLY_LAYOUT,
+                title="Top 5 Predicted Reps — Actual vs Q1 2025 Forecast",
+                barmode="group",
+                xaxis_title="Revenue ($)",
+                yaxis_title="",
+                height=360,
+            )
+            st.plotly_chart(fig_top5, use_container_width=True)
+
+        with r5c2:
+            top5_disp = top5.copy()
+            top5_disp["Actual_Avg_Rev"]     = top5_disp["Actual_Avg_Rev"].map("${:,.0f}".format)
+            top5_disp["Predicted_Q1_2025"]  = top5_disp["Predicted_Q1_2025"].map("${:,.0f}".format)
+            top5_disp.columns = ["Rank", "Sales Rep", "Region", "Actual Avg Rev", "Predicted Q1 2025"]
+            top5_disp = top5_disp.reset_index(drop=True)
+            top5_disp.insert(0, "Rank", ["🥇","🥈","🥉","4th","5th"])
+            st.markdown("#### 📋 Top 5 Rep Rankings")
+            st.dataframe(top5_disp, use_container_width=True, hide_index=True)
+            best = top5.iloc[0]
+            st.markdown(f"""
+            <div class="insight-box success">
+                🏆 <strong>{best['Sales_Rep_Name']}</strong> ({best['Region']}) is the model's top pick for Q1 2025
+                with a predicted revenue of <strong>${best['Predicted_Q1_2025']:,.0f}</strong> —
+                based on their historical activity profile including {best['Deals_Closed']:.0f} avg deals/period
+                and ${best['Avg_Unit_Value']:,.0f} avg unit value.
+            </div>
+            """, unsafe_allow_html=True)
+
+    # ── LEAD CONVERSION FORECAST ───────────────────────────────────────────────
+    st.markdown('<div class="section-title">📈 Lead Conversion Rate Forecast <span class="section-badge">Forecast</span></div>', unsafe_allow_html=True)
+    st.markdown("""<div class="insight-box">Forecasted lead conversion rate (Converted / New Leads) for Q1-Q2 2025 per region, extrapolated from historical quarterly trends using linear regression on each region's time series.</div>""", unsafe_allow_html=True)
+
+    from sklearn.linear_model import LinearRegression as LR
+    hist_conv = df.groupby(["Quarter", "Region"]).apply(
+        lambda g: pd.Series({"Conv_Rate": g["Converted"].sum() / max(g["New_Leads"].sum(), 1) * 100})
+    ).reset_index()
+    hist_conv["Q_Num"] = hist_conv["Quarter"].map(Q_MAP).fillna(0)
+
+    lc1, lc2 = st.columns(2)
+    with lc1:
+        fig_lc = go.Figure()
+        all_lc_quarters = QUARTER_ORDER + ["Q1 2025", "Q2 2025"]
+        for region in ["North", "South", "East", "West"]:
+            rd = hist_conv[hist_conv["Region"] == region].sort_values("Q_Num")
+            if len(rd) < 2:
+                continue
+            # Fit simple linear trend
+            lm = LR()
+            lm.fit(rd[["Q_Num"]], rd["Conv_Rate"])
+            future_q = pd.DataFrame({"Q_Num": [5, 6]})
+            future_conv = lm.predict(future_q).clip(0, 100)
+
+            x_all = list(rd["Quarter"]) + ["Q1 2025", "Q2 2025"]
+            y_all = list(rd["Conv_Rate"]) + list(future_conv)
+            c = COLORS[region]
+
+            fig_lc.add_trace(go.Scatter(
+                x=x_all[:len(rd)], y=y_all[:len(rd)],
+                name=f"{region} — Historical",
+                mode="lines+markers",
+                line=dict(color=c, width=2.5),
+                marker=dict(size=8),
+                legendgroup=region,
+            ))
+            fig_lc.add_trace(go.Scatter(
+                x=x_all[len(rd)-1:], y=y_all[len(rd)-1:],
+                name=f"{region} — Forecast",
+                mode="lines+markers",
+                line=dict(color=c, width=2, dash="dash"),
+                marker=dict(size=8, symbol="diamond"),
+                legendgroup=region,
+                showlegend=False,
+            ))
+
+        fig_lc.add_shape(
+            type="line", x0="Q4 2024", x1="Q4 2024", y0=0, y1=1,
+            xref="x", yref="paper",
+            line=dict(color="rgba(165,180,252,0.4)", width=1, dash="dot"),
+        )
+        fig_lc.add_annotation(
+            x="Q4 2024", y=1.05, xref="x", yref="paper",
+            text="← History | Forecast →", showarrow=False,
+            font=dict(color="#a5b4fc", size=11), xanchor="center",
+        )
+        _lc_layout = {k: v for k, v in PLOTLY_LAYOUT.items() if k != "xaxis"}
+        _lc_layout.update({
+            "title": "Lead Conversion Rate Forecast — Q1 & Q2 2025",
+            "height": 400, "showlegend": True,
+            "xaxis": {**PLOTLY_LAYOUT["xaxis"],
+                      "categoryorder": "array", "categoryarray": all_lc_quarters},
+            "yaxis_title": "Conversion Rate (%)",
+        })
+        fig_lc.update_layout(**_lc_layout)
+        st.plotly_chart(fig_lc, use_container_width=True)
+
+    with lc2:
+        lc_rows = []
+        for region in ["North", "South", "East", "West"]:
+            rd = hist_conv[hist_conv["Region"] == region].sort_values("Q_Num")
+            if len(rd) < 2:
+                continue
+            lm = LR()
+            lm.fit(rd[["Q_Num"]], rd["Conv_Rate"])
+            q1_pred = float(lm.predict([[5]])[0].clip(0, 100))
+            q2_pred = float(lm.predict([[6]])[0].clip(0, 100))
+            hist_avg = rd["Conv_Rate"].mean()
+            lc_rows.append({"Region": region,
+                            "Q1 2025 (%)": round(q1_pred, 1),
+                            "Q2 2025 (%)": round(q2_pred, 1),
+                            "Historical Avg (%)": round(hist_avg, 1),
+                            "Trend": "📈" if q2_pred > rd["Conv_Rate"].iloc[-1] else "📉"})
+        lc_df = pd.DataFrame(lc_rows)
+        st.markdown("#### 📋 Conversion Rate Forecast Table")
+        st.dataframe(lc_df, use_container_width=True, hide_index=True)
 
     # ── WHAT-IF SIMULATOR ──────────────────────────────────────────────────────
     st.markdown('<div class="section-title">🎛️ What-If Revenue Simulator <span class="section-badge">Interactive</span></div>', unsafe_allow_html=True)
