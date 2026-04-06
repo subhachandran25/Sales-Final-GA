@@ -909,12 +909,14 @@ with tab4:
             st.plotly_chart(fig_top5, use_container_width=True)
 
         with r5c2:
-            top5_disp = top5.copy()
-            top5_disp["Actual_Avg_Rev"]     = top5_disp["Actual_Avg_Rev"].map("${:,.0f}".format)
-            top5_disp["Predicted_Q1_2025"]  = top5_disp["Predicted_Q1_2025"].map("${:,.0f}".format)
-            top5_disp.columns = ["Rank", "Sales Rep", "Region", "Actual Avg Rev", "Predicted Q1 2025"]
-            top5_disp = top5_disp.reset_index(drop=True)
-            top5_disp.insert(0, "Rank", ["🥇","🥈","🥉","4th","5th"])
+            # Build display table cleanly — no column rename, just select & label directly
+            top5_disp = pd.DataFrame({
+                "Rank":              ["🥇","🥈","🥉","4th","5th"],
+                "Sales Rep":         top5["Sales_Rep_Name"].values,
+                "Region":            top5["Region"].values,
+                "Actual Avg Rev":    top5["Actual_Avg_Rev"].map("${:,.0f}".format).values,
+                "Predicted Q1 2025": top5["Predicted_Q1_2025"].map("${:,.0f}".format).values,
+            })
             st.markdown("#### 📋 Top 5 Rep Rankings")
             st.dataframe(top5_disp, use_container_width=True, hide_index=True)
             best = top5.iloc[0]
