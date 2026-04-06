@@ -873,7 +873,8 @@ with tab4:
         rep_profiles["Predicted_Q1_2025"] = model.predict(X_reps)
 
         top5 = rep_profiles.nlargest(5, "Predicted_Q1_2025")[
-            ["Sales_Rep_Name", "Region", "Actual_Avg_Rev", "Predicted_Q1_2025"]
+            ["Sales_Rep_Name", "Region", "Actual_Avg_Rev",
+             "Predicted_Q1_2025", "Deals_Closed", "Avg_Unit_Value"]
         ].reset_index(drop=True)
         top5.index = top5.index + 1  # rank from 1
 
